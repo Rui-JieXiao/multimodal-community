@@ -1,0 +1,6 @@
+/* 这里的指令会将 Tailwind 的基础样式注入到项目中 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 这里的警告 是因为 VS Code 插件不认识原生指令，可以忽略 */

@@ -1,0 +1,269 @@
+[
+  {
+    "id": "cfp-001",
+    "source": "IEEE / JSTARS",
+    "title": "遥感多模态迁移学习进展：理论、方法与应用",
+    "scope": "本专刊旨在探讨多模态迁移学习在处理遥感异构数据中的核心价值。侧重于跨模态知识表示、自监督学习及领域自适应等前沿方法，诚邀在土地覆盖分析、精准农业及灾害响应等高影响应用领域的创新成果，以推动遥感大数据的智能化处理与知识迁移。",
+    "date_range": "2026-03-01 —— 2026-08-31",
+    "image": "/cfp_covers/cfp-001.jpg",
+    "metrics": [
+      { "label": "CiteScore", "value": "9.3" },
+      { "label": "Impact Factor", "value": "5.3" }
+    ],
+    "link": "https://www.grss-ieee.org/wp-content/uploads/2025/09/JSTARS_CfP_Templatev3.pdf"
+  },
+  {
+  "id": "cfp-002",
+  "source": "Elsevier / Ocean Engineering",
+  "title": "水下工程多模态3D感知：声学、光学及集成方案",
+  "scope": "本专刊旨在探讨水下工程多模态3D感知的最新进展，重点聚焦声学、光学及其集成化解决方案。侧重于水下3D重建、多源数据融合及自主感知技术，诚邀在水下成像、声呐信号处理及跨模态感知系统等领域的创新研究，以推动复杂水下环境下探测精度与建模能力的提升。",
+  "date_range": "2025-10-01 —— 2026-04-01",
+  "image": "/cfp_covers/cfp-002.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "8.4" },
+    { "label": "Impact Factor", "value": "5.5" }
+  ],
+  "link": "https://www.sciencedirect.com/special-issue/325118/multimodal-3d-perception-for-underwater-engineering-acoustics-optics-and-integrated-solutions"
+ },
+ {
+  "id": "cfp-003",
+  "source": "Elsevier / Pattern Recognition",
+  "title": "多模态驱动的视频理解与评估进展",
+  "scope": "视频数据的爆发式增长对智能理解与评估提出了更高要求。本专刊聚焦视频与音频、文本及传感器信息的多源集成，旨在通过多模态融合提升视频处理、分析与解译的智能化水平。诚邀在视频编解码、质量评估、多模态表示学习及实时处理架构等方向的创新研究，为自动监控、智能推荐及医疗诊断等领域提供前沿技术支撑。",
+  "date_range": "2025-04-15 —— 2025-11-15",
+  "image": "/cfp_covers/cfp-003.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "15.5" },
+    { "label": "Impact Factor", "value": "7.6" }
+  ],
+  "link": "https://www.sciencedirect.com/special-issue/320951/advances-in-multimodal-driven-video-understanding-and-assessment"
+ },
+ {
+  "id": "cfp-004",
+  "source": "THU Science and Technology",
+  "title": "多源视觉融合与智能：从感知到认知理解",
+  "scope": "本专刊聚焦异构视觉数据（如RGB、深度、红外、LiDAR及知识图谱）的深度集成。旨在突破单一源模型在复杂环境下的局限，通过多模态融合实现从底层感知到高阶认知智能的跨越。重点征集异构传感器集成、跨模态表示学习、神经符号推理及视觉常识推理等原创研究，推动机器在复杂场景下实现类人的、可解释的决策能力。",
+  "date_range": "2025-07-01 —— 2025-12-31",
+  "image": "/cfp_covers/cfp-004.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "12.3" },
+    { "label": "Impact Factor", "value": "3.5" }
+  ],
+  "link": "https://www.sciopen.com/journal/message_news/get_by_id?id=1935516870616117249&issn=1007-0214"
+ },
+ {
+  "id": "cfp-005",
+  "source": "Elsevier / JVCIR",
+  "title": "多模态视觉智能学习：从前沿技术到实际应用",
+  "scope": "基础模型与跨模态预训练正推动视觉智能领域的范式变革。本专刊聚焦视觉与语言、音频及传感信号的深度集成，旨在提升非结构化环境下的多模态感知与推理能力。重点征集视觉表征基础模型、时空建模、轻量化部署及视觉-语言检索等方向的原创研究，特别关注多模态计算在医疗、机器人、智能交通及监控等领域的实际应用方案。",
+  "date_range": "2025-04-30 —— 2025-11-30",
+  "image": "/cfp_covers/cfp-005.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "6.0" },
+    { "label": "Impact Factor", "value": "3.1" }
+  ],
+  "link": "https://www.sciencedirect.com/special-issue/322635/multimodal-learning-for-visual-intelligence-from-emerging-techniques-to-real-world-applications"
+ },
+ {
+  "id": "cfp-006",
+  "source": "Springer / JRTIP",
+  "title": "海洋与水下应用的实时图像处理",
+  "scope": "本专刊聚焦复杂水下环境（低能见度、色彩失真）中的实时图像处理挑战。重点关注实时增强与修复算法（如CNN、GAN、Retinex）、轻量化目标检测以及视觉与声呐/激光雷达的多模态融合技术。特别强调降低计算复杂度及硬件加速实现，旨在为自主水下航行器（AUV）导航、海洋生境监测及灾害响应提供高吞吐量的边缘感知方案。",
+  "date_range": "2025-04-01 —— 2025-07-31",
+  "image": "/cfp_covers/cfp-006.webp",
+  "metrics": [
+    { "label": "CiteScore", "value": "7.4" },
+    { "label": "Impact Factor", "value": "3.0" }
+  ],
+  "link": "https://link.springer.com/journal/11554"
+},
+{
+  "id": "cfp-007",
+  "source": "Elsevier / Pattern Recognition",
+  "title": "面向多模态感知与模式识别的下一代音视频生成模型",
+  "scope": "本专刊聚焦音视频生成在多模态感知中的前沿进展。重点探讨扩散模型、GAN及Transformer在音视频合成、跨模态翻译及面部动画中的应用。涵盖联合表征、语义对齐、时间同步及低资源建模等核心技术。旨在汇聚创新方法与评测基准，推动生成式多模态AI在医疗、娱乐及人机交互等场景的深度落地。",
+  "date_range": "2026-01-16 —— 2026-05-31",
+  "image": "/cfp_covers/cfp-007.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "15.5" },
+    { "label": "Impact Factor", "value": "7.6" }
+  ],
+  "link": "https://www.sciencedirect.com/special-issue/329506/next-generation-audio-visual-generation-models-for-multimodal-perception-and-pattern-recognition"
+},
+{
+  "id": "cfp-008",
+  "source": "CVPR",
+  "title": "Any-to-Any 多模态学习 Workshop",
+  "scope": "本研讨会聚焦Any-to-Any多模态学习前沿，旨在突破传统固定模态对的局限，实现任意模态组合间的理解、对齐、转换与生成。核心涵盖表征学习、跨模态变换及协同合作三大支柱，探讨统一多模态基础模型、具身智能、认知推理及性能基准。欢迎提交短论文或长篇研究，共同助力构建全感官通用多模态智能。",
+  "date_range": "截止日期: 2026-03-01",
+  "image": "/cfp_covers/cfp-008.webp",
+  "metrics": [],
+  "link": "https://a2a-mml-2026.vercel.app/"
+},
+{
+  "id": "cfp-009",
+  "source": "CVPR",
+  "title": "多模态算法推理(MAR) Workshop",
+  "scope": "本研讨会聚焦多模态算法推理，探索智能体如何整合视觉、语言等信息解决复杂逻辑问题。核心议题涵盖跨模态思维链、具身智能中的物理约束、多智能体协作及模型扩展定律。通过融合认知科学，旨在剖析机器智能的理论极限与评估基准，填补机器与人类认知鸿沟，为迈向具备类人理解能力的通用人工智能提供核心驱动。",
+  "date_range": "截止日期: 2026-02-27",
+  "image": "/cfp_covers/cfp-009.webp",
+  "metrics": [],
+  "link": "https://marworkshop.github.io/cvpr26/"
+},
+{
+  "id": "cfp-010",
+  "source": "CVPR",
+  "title": "3D-LLM/VLA Workshop",
+  "scope": "本研讨会聚焦三维环境下的语言与感知融合，致力于开发先进具身智能体。延续首届洞察，本届深入探讨3D-LLM与VLA模型，涵盖空间推理、生成式世界模型及动作导航。旨在通过多模态学习突破物理交互瓶颈，构建具备空间认知与操作能力的通用智能体，推动具身人工智能前沿。",
+  "date_range": "截止日期: 2026-03-10",
+  "image": "/cfp_covers/cfp-010.webp",
+  "metrics": [],
+  "link": "https://3d-llm-vla.github.io/"
+},
+{
+  "id": "cfp-011",
+  "source": "ICLR",
+  "title": "多模态智能 Workshop：Next Token Prediction & Beyond",
+  "scope": "本研讨会聚焦多模态基础模型演进，探讨超越传统Next Token Prediction的新范式。涵盖自回归建模、预测编码及离散扩散等视角。旨在对比不同范式的扩展行为与数据效率，探索混合训练策略与统一框架。通过审视表征接口与评估协议，致力于构建能真正感知、预测并理解世界的下一代智能系统。",
+  "date_range": "截止日期: 2026-02-05",
+  "image": "/cfp_covers/cfp-011.webp",
+  "metrics": [],
+  "link": "https://mmintelligence.github.io/"
+},
+{
+  "id": "cfp-012",
+  "source": "ICLR",
+  "title": "第二届世界模型 Workshop: Understanding, Modelling, and Scaling",
+  "scope": "本研讨会聚焦世界模型的构建、分析与应用，深入探讨Understanding, Modelling, and Scaling核心维度。议题涵盖模型强化学习、因果推理、时空建模及环境仿真。通过整合扩散模型与三维重建，旨在跨越自然与社会科学边界。致力于构建能精准捕捉环境动力学、支持复杂决策并驱动具身智能与自动驾驶的下一代通用模型。",
+  "date_range": "2026-01-06 —— 2026-02-02",
+  "image": "/cfp_covers/cfp-012.webp",
+  "metrics": [],
+  "link": "https://sites.google.com/view/iclr-2026-workshop-world-model/submit"
+},
+{
+  "id": "cfp-013",
+  "source": "IEEE / TCSS",
+  "title": "计算社会系统中的感知觉异常理解特刊：建模与评估",
+  "scope": "本特刊聚焦计算社会系统中的感知觉异常理解（PAAU），旨在整合感知评估与智能检测技术。议题涵盖多模态社交分析、大模型应用、边云协同及可信AI。通过融合视听、触觉等模态，探索元宇宙与多媒体平台的行为建模与异常识别。致力于提升沉浸式体验质量与安全性，为构建公平、可持续的社会系统提供方案。",
+  "date_range": "截止日期: 2026-06-30",
+  "image": "/cfp_covers/cfp-013.webp",
+  "metrics": [],
+  "link": "https://www.ieeesmc.org/wp-content/uploads/2025/09/CFP_SI-on-Perception-Aware-Anomaly-Understanding-in-Computational-Social-Systems.pdf"
+},
+{
+  "id": "cfp-014",
+  "source": "IEEE / TCSS",
+  "title": "大规模与生成式AI驱动的经济商业预测特刊：建模、技术与应用",
+  "scope": "本特刊关注大规模与生成式AI在经济商业预测中的应用。核心涵盖大语言模型、扩散模型及多智能体仿真，旨在处理海量异构数据并建模复杂非线性关系。议题包括多模态集成、因果推断、可解释AI及决策优化。通过合成数据与未来场景生成，提升预测精度与透明度，探讨人类专家与AI协同，为智慧经济系统提供技术支撑。",
+  "date_range": "截止日期: 2026-06-30",
+  "image": "/cfp_covers/cfp-014.webp",
+  "metrics": [],
+  "link": "https://www.ieeesmc.org/wp-content/uploads/2025/09/CFP_SI-on-Perception-Aware-Anomaly-Understanding-in-Computational-Social-Systems.pdf"
+},
+{
+  "id": "cfp-015",
+  "source": "IEEE / ToG",
+  "title": "面向多模态内容生成的游戏特刊",
+  "scope": "本特刊聚焦游戏领域的多模态内容生成，涵盖文本、音视频及三维网格等资产的自动化产出。旨在通过跨模态生成模型优化游戏设计与体验，重点探讨少样本学习、大语言模型及游戏facet编排等方法。通过构建高质量数据集与评估工具，致力于突破虚拟世界建模与叙事生成瓶颈，为游戏产业的生成式AI应用提供支撑。",
+  "date_range": "截止日期: 2026-03-01",
+  "image": "/cfp_covers/cfp-015.webp",
+  "metrics": [],
+  "link": "https://transactions.games/special-issue/special-issue-on-multi-modal-content-generation-for-games"
+},
+{
+  "id": "cfp-016",
+  "source": "CVPR",
+  "title": "第九届多模态学习与应用 Workshop (MULA 2026)",
+  "scope": "本特刊聚焦多模态学习与应用，利用传感器同步流增强语义传输。核心议题涵盖自监督学习、跨模态适配、扩散模型及大语言模型在视觉中的应用。融合视频、音频、深度及IMU等数据，重点探讨自动驾驶、机器人及工业检测中的场景理解。致力于突破对齐与表示瓶颈，推动多学科交互协作，提升复杂环境下模型鲁棒性。",
+  "date_range": "截止日期: 2026-03-09",
+  "image": "/cfp_covers/cfp-016.webp",
+  "metrics": [],
+  "link": "https://mula-workshop.github.io/"
+},
+{
+  "id": "cfp-017",
+  "source": "CVPR",
+  "title": "第五届 CViW Workshop：构建具备语言、空间与时间智能的多模态 AI Agent",
+  "scope": "本特刊聚焦真实场景下的多模态智能体，推动模型从静态感知向“感知-推理-行动”跨越。核心涵盖大规模多模态模型与视觉-语言-动作系统，重点探讨精细化时空推理、因果分析及长时程规划。议题包括视频理解、具身智能及零样本学习，旨在突破动态环境下的鲁棒性瓶颈，为构建能与现实物理世界交互的系统提供支撑。",
+  "date_range": "截止日期: 2026-05-16",
+  "image": "/cfp_covers/cfp-017.webp",
+  "metrics": [],
+  "link": "https://computer-vision-in-the-wild.github.io/cvpr-2026/"
+},
+{
+  "id": "cfp-018",
+  "source": "CVPR",
+  "title": "第二十二届非可见光感知 Workshop (PBVS 2026)",
+  "scope": "本特刊聚焦非可见光感知（PBVS）前沿技术，涵盖红外、深度及雷达等传感器处理与算法应用。核心议题包括多模态融合、目标追踪及场景重建，旨在克服单一可见光传感器在复杂环境下的局限性。通过探讨深度学习与特征提取，提升自主系统在全天候条件下的感知鲁棒性，为机器人与自动驾驶等关键领域提供硬核技术支撑。",
+  "date_range": "截止日期: 2026-03-06",
+  "image": "/cfp_covers/cfp-018.webp",
+  "metrics": [],
+  "link": "https://pbvs-workshop.github.io/call_for_paper.html"
+},
+{
+  "id": "cfp-019",
+  "source": "IEEE / TAFFC",
+  "title": "情感智能与艺术设计特刊",
+  "scope": "本特刊聚焦情感智能与艺术设计的交叉融合，通过自然语言处理、多媒体分析及VR/AR技术，探索多感官情绪体验的构建。核心议题涵盖多模态艺术整合、艺术疗法及AIGC在心理健康领域的应用。重点探讨设计美学与情感的关联，旨在通过跨学科协作推动情感计算理论发展，为艺术创新与情绪疗愈提供强力技术支撑。",
+  "date_range": "截止日期: 2026-04-30",
+  "image": "/cfp_covers/cfp-019.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "18.5" },
+    { "label": "Impact Factor", "value": "9.8" }
+  ],
+  "link": "https://www.computer.org/digital-library/journals/ta/affective-intelligence-art-design"
+},
+{
+  "id": "cfp-020",
+  "source": "IEEE COMPSAC",
+  "title": "COMPSAC 2026 特刊：智能体 AI 与主动式系统：创新软件、计算范式及应用",
+  "scope": "本会议聚焦智能体AI的前沿进展，探讨从被动生成向主动决策系统的范式转型。核心议题涵盖多步规划、自主决策及多代理协作。重点关注强化学习、工具调用及多模态感知交互，旨在提升系统在代码辅助与高风险决策中的表现。同时强调可解释性、伦理性与安全保障，为构建高效、鲁棒的主动式AI系统提供学术交流平台。",
+  "date_range": "截止日期: 2026-01-31",
+  "image": "/cfp_covers/cfp-020.webp",
+  "metrics": [],
+  "link": "https://ieeecompsac.computer.org/2026/call-for-papers/"
+},
+{
+  "id": "cfp-021",
+  "source": "IEEE / TDSC",
+  "title": "AI 内容生成与检测特刊",
+  "scope": "本特刊聚焦AI内容生成的创新与检测技术，涵盖视频、图像、音频及文本等多模态数据。重点探讨跨模态生成、人脸伪造检测及可解释性AI，旨在解决生成内容的真实性校验与多媒体取证难题。通过研究水印、指纹及传输追踪，平衡AI在影视游戏中的正面应用与潜在滥用风险，为构建安全可信的生成式AI生态提供理论与算法支撑。",
+  "date_range": "截止日期: 2026-04-30",
+  "image": "/cfp_covers/cfp-021.jpg",
+  "metrics": [
+    { "label": "CiteScore", "value": "12.6" },
+    { "label": "Impact Factor", "value": "7.5" }
+  ],
+  "link": "https://www.computer.org/digital-library/journals/tq/cfp-ai-content-generation-detection"
+},
+{
+  "id": "cfp-022",
+  "source": "CVPR",
+  "title": "多模态基座模型数据新兴方向 Workshop (DataMFM)",
+  "scope": "本专题探讨多模态大模型从“网络规模”向“世界规模”的数据转型，重点关注智能体驱动的自生成数据流水线与VLA模型。涵盖跨模态对齐、基准测试重构及数据污染缓解等前沿议题。通过引入公平性评估与透明化治理，致力于解决非受控环境下数据质量、多样性与可信度瓶颈，推动构建安全、公平且高效的多模态基座模型数据范式。",
+  "date_range": "截止日期: 2026-02-25 (Archival) / 2026-04-01 (Non-archival)",
+  "image": "/cfp_covers/cfp-022.webp",
+  "metrics": [],
+  "link": "https://datamfm.github.io/"
+},
+{
+  "id": "cfp-023",
+  "source": "CVPR",
+  "title": "第二届合成与对抗取证 Workshop (SAFE 2026)",
+  "scope": "本专题聚焦合成与对抗取证前沿，涵盖扩散模型及视觉语言模型（VLM）的生成、篡改与鲁棒性评估。核心议题包括主动防御指纹水印、红队测试及多媒体溯源验证。重点探讨针对视频流的对抗攻击缓解、训练数据投毒防御及模型可解释性。通过构建标准化基准测试，旨在突破复杂环境下的内容安全瓶颈，推动可信生成式AI生态建设。",
+  "date_range": "2026-01-15 —— 2026-03-13",
+  "image": "/cfp_covers/cfp-023.webp",
+  "metrics": [],
+  "link": "https://www.safeworkshop.org/cvpr-2026/"
+},
+{
+  "id": "cfp-024",
+  "source": "ACM",
+  "title": "GECCO 2026：多模态数据驱动优化与学习专题研讨会 (MultiDOL)",
+  "scope": "本专题响应大模型趋势，探索演化计算与多模态基座模型的协同进化。核心议题包括多模态神经架构搜索、异构数据驱动的代理辅助优化及多模态组合优化。重点关注在数字孪生、自动驾驶及精准医疗中的实战部署。诚邀研究者共同定义多模态优化的新范式，开发专门的基准测试集，推动演化算法在处理多源异构信息时的效率与鲁棒性。",
+  "date_range": "截止日期: 2026-03-27",
+  "image": "/cfp_covers/cfp-024.webp",
+  "metrics": [],
+  "link": "https://sites.google.com/view/gecco26-multidol/home"
+}
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "title": "Audio-visual event localization via recursive fusion by joint co-attention",
+    "link": "https://arxiv.org/abs/2008.06581",
+    "venue": "WACV",
+    "date": "2021",
+    "tags": [
+      "Fusion"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Local class-specific and global image-level generative adversarial networks for semantic-guided scene generation",
+    "link": "https://arxiv.org/abs/1912.12215",
+    "venue": "CVPR",
+    "date": "2020",
+    "tags": [
+      "Translation",
+      "Representation"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Enhanced Multi-Scale Cross-Attention for Person Image Generation",
+    "link": "https://arxiv.org/abs/2501.08900",
+    "venue": "IEEE TPAMI",
+    "date": "2025",
+    "tags": [
+      "Fusion",
+      "Representation"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "I2I-Mamba: Multi-modal medical image synthesis via selective state space modeling",
+    "link": "https://arxiv.org/abs/2405.14022",
+    "venue": "arXiv",
+    "date": "2024",
+    "tags": [
+      "Translation",
+      "Fusion"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "JambaTalk: Speech-Driven 3D Talking Head Generation Based on Hybrid Transformer-Mamba Model",
+    "link": "https://arxiv.org/abs/2408.01627",
+    "venue": "arXiv",
+    "date": "2024",
+    "tags": [
+      "Generation",
+      "Alignment"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "GFE-Mamba: Mamba-based AD Multi-modal Progression Assessment via Generative Feature Extraction from MCI",
+    "link": "https://arxiv.org/abs/2407.15719",
+    "venue": "arXiv",
+    "date": "2024",
+    "tags": [
+      "Fusion",
+      "Representation"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "The Llama 3 Herd of Models",
+    "link": "https://arxiv.org/abs/2407.21783",
+    "venue": "arXiv",
+    "date": "Unknown",
+    "tags": [
+      "Alignment",
+      "Representation",
+      "Fusion"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "OneLLM: One Framework to Align All Modalities with Language",
+    "link": "https://arxiv.org/abs/2312.03700",
+    "venue": "CVPR",
+    "date": "2024",
+    "tags": [
+      "Alignment"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Data processing techniques for modern multimodal models",
+    "link": "https://arxiv.org/abs/2407.19180",
+    "venue": "arXiv",
+    "date": "2024",
+    "tags": [
+      "Alignment"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Foundations \\& Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions",
+    "link": "https://doi.org/10.1145/3656580",
+    "venue": "ACM Comput. Surv.",
+    "date": "2024",
+    "tags": [
+      "Representation",
+      "Alignment",
+      "Reasoning",
+      "Generation",
+      "Transference",
+      "Quantification"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Aligning and prompting everything all at once for universal visual perception",
+    "link": "https://arxiv.org/abs/2312.02153",
+    "venue": "CVPR",
+    "date": "2024",
+    "tags": [
+      "Alignment",
+      "Fusion"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Segment Anything",
+    "link": "https://arxiv.org/abs/2304.02643",
+    "venue": "arXiv",
+    "date": "2023",
+    "tags": [
+      "Fusion",
+      "Alignment"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "A kernel method for canonical correlation analysis",
+    "link": "https://arxiv.org/pdf/cs/0609071",
+    "venue": "IMPS",
+    "date": "2001",
+    "tags": [
+      "Alignment",
+      "Representation"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Canonical correlation analysis: An overview with application to learning methods",
+    "link": "https://ieeexplore.ieee.org/abstract/document/6788402",
+    "venue": "Neural Computation",
+    "date": "2004",
+    "tags": [
+      "Alignment",
+      "Representation",
+      "Retrieval"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  },
+  {
+    "title": "Im2Text and Text2Im: Associating images and texts for cross-modal retrieval",
+    "link": "https://bmva-archive.org.uk/bmvc/2014/files/paper089.pdf",
+    "venue": "Proceedings of the British Machine Vision Conference (BMVC)",
+    "date": "2014",
+    "tags": [
+      "Retrieval",
+      "Representation",
+      "Alignment"
+    ],
+    "source": "survey:2411.17040",
+    "code": "",
+    "authors": "TBA",
+    "description": "",
+    "image": ""
+  }
+]

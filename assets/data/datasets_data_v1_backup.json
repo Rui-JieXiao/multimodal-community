@@ -1,0 +1,1098 @@
+[
+  {
+    "title": "ShareGPT4Video",
+    "link": "https://arxiv.org/pdf/2406.04325v1",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Video-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "COYO-700M",
+    "link": "https://github.com/kakaobrain/coyo-dataset/",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "ShareGPT4V",
+    "link": "https://arxiv.org/pdf/2311.12793.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "AS-100M",
+    "link": "https://arxiv.org/pdf/2308.01907.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Hybrid | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "InternVid",
+    "link": "https://arxiv.org/pdf/2307.06942.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Video-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MS-COCO",
+    "link": "https://arxiv.org/pdf/1405.0312.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "SBU Captions",
+    "link": "https://proceedings.neurips.cc/paper/2011/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Conceptual Captions",
+    "link": "https://aclanthology.org/P18-1238.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "LAION-400M",
+    "link": "https://arxiv.org/pdf/2111.02114.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "VG",
+    "link": "https://link.springer.com/content/pdf/10.1007/s11263-016-0981-7.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Flickr30k Entities",
+    "link": "https://openaccess.thecvf.com/content_iccv_2015/papers/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Wukong",
+    "link": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a90b9a09a6ee43d6631cf42e225d73b4-Paper-Datasets_and_Benchmarks.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "GRIT",
+    "link": "https://arxiv.org/pdf/2306.14824.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Image-Text-Bounding-Box",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Youku-mPLUG",
+    "link": "https://arxiv.org/pdf/2306.04362.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Video-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MSR-VTT",
+    "link": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xu_MSR-VTT_A_Large_CVPR_2016_paper.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Video-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Webvid",
+    "link": "https://arxiv.org/pdf/2104.00650.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Video-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "WavCaps",
+    "link": "https://arxiv.org/pdf/2303.17395.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "Caption | Audio-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "AISHELL-1",
+    "link": "https://arxiv.org/pdf/1709.05522.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "ASR | Audio-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "AISHELL-2",
+    "link": "https://arxiv.org/pdf/1808.10583.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Pre-Training"
+    ],
+    "source": "auto-script",
+    "description": "ASR | Audio-Text",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Inst-IT Dataset",
+    "link": "https://github.com/inst-it/inst-it",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "An instruction-tuning dataset which contains fine-grained multi-level annotations for 21k videos and 51k images",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "E.T. Instruct 164K",
+    "link": "https://github.com/PolyU-ChenLab/ETBench",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "An instruction-tuning dataset for time-sensitive video understanding",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MSQA",
+    "link": "https://msr3d.github.io/",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A large scale dataset for multi-modal situated reasoning in 3D scenes",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MM-Evol",
+    "link": "https://mmevol.github.io/home_page.html",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "An instruction dataset with rich diversity",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "UNK-VQA",
+    "link": "https://github.com/guoyang9/UNK-VQA",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A dataset designed to teach models to refrain from answering unanswerable questions",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "VEGA",
+    "link": "https://github.com/zhourax/VEGA",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A dataset for enhancing model capabilities in comprehension of interleaved information",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "ALLaVA-4V",
+    "link": "https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Vision and language caption and instruction dataset generated by GPT4V",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "IDK",
+    "link": "https://github.com/ncsoft/idk",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Dehallucinative visual instruction for \"I Know\" hallucination",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "CAP2QA",
+    "link": "https://github.com/ncsoft/cap2qa",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Image-aligned visual instruction dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "M3DBench",
+    "link": "https://github.com/OpenM3D/M3DBench",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning",
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A large-scale 3D instruction tuning dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "ViP-LLaVA-Instruct",
+    "link": "https://huggingface.co/datasets/mucai/ViP-LLaVA-Instruct",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A mixture of LLaVA-1.5 instruction data and the region-level visual prompting data",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "ComVint",
+    "link": "https://github.com/RUCAIBox/ComVint#comvint-data",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A synthetic instruction dataset for complex visual reasoning",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "SparklesDialogue",
+    "link": "https://github.com/HYPJUDY/Sparkles#sparklesdialogue",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A machine-generated dialogue dataset tailored for word-level interleaved multi-image and text interactions to augment the conversational competence of instruction-following LLMs across multiple images and dialogue turns.",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "StableLLaVA",
+    "link": "https://github.com/icoz69/StableLLAVA",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A cheap and effective approach to collect visual instruction tuning data",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "M-HalDetect",
+    "link": "https://arxiv.org/pdf/2308.06394.pdf",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning",
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A dataset used to train and benchmark models for hallucination detection and prevention",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "SVIT",
+    "link": "https://huggingface.co/datasets/BAAI/SVIT",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A large-scale dataset with 4.2M informative visual instruction tuning data, including conversations, detailed descriptions, complex reasoning and referring QAs",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "LLaVAR",
+    "link": "https://llavar.github.io/#data",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A visual instruction-tuning dataset for Text-rich Image Understanding",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MotionGPT",
+    "link": "https://github.com/OpenMotionLab/MotionGPT",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A instruction-tuning dataset including multiple human motion-related tasks",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "LRV-Instruction",
+    "link": "https://github.com/FuxiaoLiu/LRV-Instruction#visual-instruction-data-lrv-instruction",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Visual instruction tuning dataset for addressing hallucination issue",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Macaw-LLM",
+    "link": "https://github.com/lyuchenyang/Macaw-LLM/tree/main/data",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A large-scale multi-modal instruction dataset in terms of multi-turn dialogue",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "VideoInstruct-100K",
+    "link": "https://github.com/mbzuai-oryx/Video-ChatGPT#video-instruction-dataset-open_file_folder",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning",
+      "Others"
+    ],
+    "source": "auto-script",
+    "description": "100K high-quality video instruction dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MIMIC-IT",
+    "link": "https://github.com/Luodian/Otter/blob/main/mimic-it/README.md",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning",
+      "In-Context Learning"
+    ],
+    "source": "auto-script",
+    "description": "Multimodal in-context instruction tuning",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "M3IT",
+    "link": "https://huggingface.co/datasets/MMInstruction/M3IT",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Large-scale, broad-coverage multimodal instruction tuning dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "LLaVA-Med",
+    "link": "https://github.com/microsoft/LLaVA-Med#llava-med-dataset",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "A large-scale, broad-coverage biomedical instruction-following dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "GPT4Tools",
+    "link": "https://github.com/StevenGrove/GPT4Tools#dataset",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Tool-related instruction datasets",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MULTIS",
+    "link": "https://iva-chatbridge.github.io/",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Multimodal instruction tuning dataset covering 16 multimodal tasks",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "DetGPT微调数据集",
+    "link": "https://github.com/OptimalScale/DetGPT/tree/main/dataset",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Instruction-tuning dataset with 5000 images and around 30000 query-answer pairs",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "PMC-VQA",
+    "link": "https://xiaoman-zhang.github.io/PMC-VQA/",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Large-scale medical visual question-answering dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "X-LLM",
+    "link": "https://github.com/phellonchen/X-LLM",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Chinese multimodal instruction dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "cc-sbu-align",
+    "link": "https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align",
+    "venue": "Dataset",
+    "tags": [
+      "Instruction Tuning"
+    ],
+    "source": "auto-script",
+    "description": "Multimodal aligned dataset for improving model's usability and generation's fluency",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MIC",
+    "link": "https://huggingface.co/datasets/BleachNick/MIC_full",
+    "venue": "Dataset",
+    "tags": [
+      "In-Context Learning"
+    ],
+    "source": "auto-script",
+    "description": "A manually constructed instruction tuning dataset including interleaved text-image inputs, inter-related multiple image inputs, and multimodal in-context learning inputs.",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "EgoCOT",
+    "link": "https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch",
+    "venue": "Dataset",
+    "tags": [
+      "Chain-of-Thought"
+    ],
+    "source": "auto-script",
+    "description": "Large-scale embodied planning dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "ScienceQA",
+    "link": "https://github.com/lupantech/ScienceQA#ghost-download-the-dataset",
+    "venue": "Dataset",
+    "tags": [
+      "Chain-of-Thought"
+    ],
+    "source": "auto-script",
+    "description": "Large-scale multi-choice dataset, featuring multimodal science questions and diverse domains",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "VLFeedback",
+    "link": "https://huggingface.co/datasets/MMInstruction/VLFeedback",
+    "venue": "Dataset",
+    "tags": [
+      "RLHF"
+    ],
+    "source": "auto-script",
+    "description": "A vision-language feedback dataset annotated by AI",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Inst-IT",
+    "link": "https://github.com/inst-it/inst-it",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark to evaluate fine-grained instance-level understanding in images and videos",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "M3CoT",
+    "link": "https://github.com/LightChen233/M3CoT",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A multi-domain, multi-step benchmark for multimodal CoT",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MMGenBench",
+    "link": "https://github.com/lerogo/MMGenBench",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark that gauges the performance of constructing image-generation prompt given an image",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "LiveXiv",
+    "link": "https://huggingface.co/datasets/LiveXiv/LiveXiv",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A live benchmark based on arXiv papers",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "TemporalBench",
+    "link": "https://huggingface.co/datasets/microsoft/TemporalBench",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for evaluation of fine-grained temporal understanding",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "OmniBench",
+    "link": "https://huggingface.co/datasets/m-a-p/OmniBench",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark that evaluates models' capabilities of processing visual, acoustic, and textual inputs simultaneously",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MME-RealWorld",
+    "link": "https://huggingface.co/datasets/yifanzhang114/MME-RealWorld",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A challenging benchmark that involves real-life scenarios",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "VELOCITI",
+    "link": "https://github.com/katha-ai/VELOCITI",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A video benhcmark that evaluates on perception and binding capabilities",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "CharXiv",
+    "link": "https://huggingface.co/datasets/princeton-nlp/CharXiv",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "Chart understanding benchmark curated by human experts",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "VL-ICL",
+    "link": "https://github.com/ys-zong/VL-ICL",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for M-ICL evaluation, covering a wide spectrum of tasks",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "TempCompass",
+    "link": "https://github.com/llyx97/TempCompass",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark to evaluate the temporal perception ability of Video LLMs",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "CoBSAT",
+    "link": "https://huggingface.co/datasets/yzeng58/CoBSAT",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for text-to-image ICL",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Math-Vision",
+    "link": "https://github.com/mathvision-cuhk/MathVision",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A diverse mathematical reasoning benchmark",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "SciMMIR",
+    "link": "https://github.com/Wusiwei0410/SciMMIR",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "CMMMU",
+    "link": "https://github.com/CMMMU-Benchmark/CMMMU",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A Chinese benchmark involving reasoning and knowledge across multiple disciplines",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "TimeIT",
+    "link": "https://huggingface.co/datasets/ShuhuaiRen/TimeIT",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A video instruction-tuning dataset with timestamp annotations, covering diverse time-sensitive video-understanding tasks.",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "BenchLMM",
+    "link": "https://huggingface.co/datasets/AIFEG/BenchLMM",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for assessment of the robustness against different image styles",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MMC-Benchmark",
+    "link": "https://github.com/FuxiaoLiu/MMC",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A comprehensive human-annotated benchmark with distinct tasks evaluating reasoning capabilities over charts",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MVBench",
+    "link": "https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A comprehensive multimodal benchmark for video understanding",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Bingo",
+    "link": "https://github.com/gzcch/Bingo",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for hallucination evaluation that focuses on two common types",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "PCA-EVAL",
+    "link": "https://github.com/pkunlp-icler/PCA-EVAL",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for evaluating multi-domain embodied decision-making.",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MathVista",
+    "link": "https://huggingface.co/datasets/AI4Math/MathVista",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark that challenges both visual and math reasoning capabilities",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "SciGraphQA",
+    "link": "https://github.com/findalexli/SciGraphQA#data",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A large-scale chart-visual question-answering dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MM-Vet",
+    "link": "https://github.com/yuweihao/MM-Vet",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "An evaluation benchmark that examines large multimodal models on complicated multimodal tasks",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "Lynx",
+    "link": "https://github.com/bytedance/lynx-llm#prepare-data",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A comprehensive evaluation benchmark including both image and video tasks",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "MME",
+    "link": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A comprehensive MLLM Evaluation benchmark",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "LAMM-Benchmark",
+    "link": "https://github.com/OpenLAMM/LAMM#lamm-benchmark",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A benchmark for evaluating  the quantitative performance of MLLMs on various2D/3D vision tasks",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "M3Exam",
+    "link": "https://github.com/DAMO-NLP-SG/M3Exam",
+    "venue": "Dataset",
+    "tags": [
+      "Benchmark"
+    ],
+    "source": "auto-script",
+    "description": "A multilingual, multimodal, multilevel benchmark for evaluating MLLM",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "IMAD",
+    "link": "https://github.com/VityaVitalich/IMAD",
+    "venue": "Dataset",
+    "tags": [
+      "Others"
+    ],
+    "source": "auto-script",
+    "description": "Multimodal dialogue dataset",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "InfoSeek",
+    "link": "https://open-vision-language.github.io/infoseek/",
+    "venue": "Dataset",
+    "tags": [
+      "Others"
+    ],
+    "source": "auto-script",
+    "description": "A VQA dataset that focuses on asking information-seeking questions",
+    "authors": "",
+    "image": "",
+    "code": ""
+  },
+  {
+    "title": "OVEN",
+    "link": "https://open-vision-language.github.io/oven/",
+    "venue": "Dataset",
+    "tags": [
+      "Others"
+    ],
+    "source": "auto-script",
+    "description": "A dataset that focuses on recognizing the Visual Entity on the Wikipedia, from images in the wild",
+    "authors": "",
+    "image": "",
+    "code": ""
+  }
+]

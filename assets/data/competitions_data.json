@@ -1,0 +1,191 @@
+[
+  {
+  "id": "comp-001",
+  "title": "多模态语义分割 | MaCVi 2026 海事计算机视觉挑战赛",
+  "host_event": "CVPR",
+  "description": "作为 MaCVi 研讨会组织的年度基准挑战赛赛道之一，多模态语义分割任务基于 MULTIAQUA 数据集，强制要求同时使用 RGB、LiDAR 与热成像三种模态。竞赛重点考察算法在夜间极端场景下的鲁棒性，旨在通过多源感知数据互补，攻克复杂水域环境下无人系统（USV）的像素级感知难题。",
+  "date_range": "2025-12-29 —— 2026-03-15",
+  "image": "/competition_covers/comp-001.webp",
+  "link": "https://macvi.org/workshop/cvpr/challenges"
+  },
+  {
+  "id": "comp-002",
+  "title": "足球 VQA | SoccerNet 2026 挑战赛",
+  "host_event": "CVPR",
+  "description": "SoccerNet-VQA 是CVSports 研讨会年度基准挑战之一，旨在探索足球多模态理解的前沿范式。任务需实现视频、图像与指令的跨模态语义解析，处理涵盖动作分类及先验知识在内的 14 类细粒度问答。竞赛以 Qwen2.5-VL 等大模型为基准，优胜团队将获 1000 美元奖金及 CVSports 现场学术报告机会。",
+  "date_range": "2025-10-15 —— 2026-04-24",
+  "image": "/competition_covers/comp-002.webp",
+  "link": "https://www.codabench.org/competitions/11087/"
+  },
+  {
+  "id": "comp-003",
+  "title": "MARS2 2025：多模态推理挑战赛",
+  "host_event": "ICCV",
+  "description": "MARS2 2025 响应“慢思考”大推理模型趋势，旨在将多模态理解从感知推向深层认知。竞赛设立空间定位、物理常识问答与广告视频理解三大赛道，提供涵盖 2K 图像及 1.5K 视频的定制数据集。任务要求算法通过链式思考等范式，攻克开放场景下的空间逻辑、反事实推理及抽象概念理解等复杂挑战。",
+  "date_range": "2025-06-01 —— 2026-08-18",
+  "image": "/competition_covers/comp-003.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2552/overview"
+  },
+  {
+  "id": "comp-004",
+  "title": "CHiPSAL 2026：低资源模因中的多模态仇恨与情感理解挑战赛",
+  "host_event": "",
+  "description": "CHiPSAL 2026 聚焦于尼泊尔语（Nepali）这一低资源语种在多模态模因中的语义理解。竞赛设立仇恨言论检测与情感三分类两大任务，挑战算法在代码混杂、非正式表达及复杂文化语境下的建模能力。赛事旨在攻克标注资源匮乏的难题，要求模型深度融合视觉与文本线索，以识别模因中隐含的攻击性与情感倾向。",
+  "date_range": "2025-12-08 —— 2026-02-14",
+  "image": "/competition_covers/comp-004.webp",
+  "link": "https://sites.google.com/view/chipsal/shared-tasks_1/shared-task-1"
+  },
+  {
+  "id": "comp-005",
+  "title": "EEUCA 2026：社交媒体疫苗批判内容多模态识别赛",
+  "host_event": "ACL",
+  "description": "EEUCA 2026 挑战赛基于逾万组手动标注的 VaxMeme 数据集，旨在识别社交媒体中的疫苗批判与误导性模因。任务要求模型协同利用图文表征，攻克讽刺和隐性语境带来的分析难题。竞赛致力于通过精细化的多模态建模，为公共卫生舆情监测及虚假信息识别提供关键技术支撑。",
+  "date_range": "2025-12-10 —— 2026-03-15",
+  "image": "/competition_covers/comp-005.webp",
+  "link": "https://www.codabench.org/competitions/12085/"
+  },
+  {
+  "id": "comp-006",
+  "title": "MEDIQA-EVAL 2026：医疗多模态问答评测指标赛",
+  "host_event": "LREC",
+  "description": "MEDIQA-EVAL 2026 聚焦医疗多模态问答系统中开放式回答的可靠性评价。竞赛针对皮肤病与伤口护理场景，要求参赛者为模型生成的回答在全局质量、事实准确性及完整性三个维度进行评分。赛事利用包含中英文的专家标注数据，旨在破解医疗大模型在复杂图文情境下的幻觉识别与质量评测难题。",
+  "date_range": "2025-12-08 —— 2026-02-05",
+  "image": "/competition_covers/comp-006.webp",
+  "link": "https://www.codabench.org/competitions/12085/"
+  },
+  {
+  "id": "comp-007",
+  "title": "EEG-AAD 2026：听觉注意力解码大挑战赛",
+  "host_event": "IEEE ICASSP",
+  "description": "本竞赛聚焦脑电（EEG）信号与视听信息的跨模态融合，旨在解决听觉注意力解码（AAD）在多发言人环境下的性能瓶颈。针对现有方法泛化性差的局限，挑战赛设置了跨受试者与跨时段两大核心任务。参赛者将利用首个包含视听刺激的4400分钟大型多模态EEG数据集，开发鲁棒的解码模型。目标是推动AAD技术在助听器等现实应用中的泛化能力，实现更智能的语音定向感知。",
+  "date_range": "2025-09-01 —— 2025-11-24",
+  "image": "/competition_covers/comp-007.webp",
+  "link": "https://fchest.github.io/icassp-aad/"
+  },
+  {
+  "id": "comp-008",
+  "title": "FAME 2026：多语言环境下的面部-语音关联挑战赛",
+  "host_event": "IEEE ICASSP",
+  "description": "本竞赛聚焦人脸与语音的生物特征识别，旨在探索视觉与听觉信号之间的强相关性。尽管跨模态人脸语音关联已取得进展，但多语言环境对该任务的影响仍是研究空白。考虑到全球半数人口为双语者，FAME 2026挑战赛重点分析多语言场景下人脸与语音的关联。通过该赛事，主办方致力于解决跨语言环境中的身份验证难题，推动多模态识别技术向更复杂的现实应用演进。",
+  "date_range": "2025-08-15 —— 2025-11-15",
+  "image": "/competition_covers/comp-008.webp",
+  "link": "https://mavceleb.github.io/dataset/competition.html"
+  },
+  {
+  "id": "comp-009",
+  "title": "Hyper-Object 2026：低成本输入下的日常物体超光谱重建挑战赛",
+  "host_event": "IEEE ICASSP",
+  "description": "Hyper-Object挑战赛聚焦日常物体的超光谱重建，要求从马赛克数据或低分辨率视觉输入中恢复400–1000nm的高维光谱信息。竞赛特设光谱重建与空间-光谱超分辨率两大技术赛道，强调算法在真实采集约束下的鲁棒性。该赛事致力于降低硬件门槛，使昂贵的专业传感技术能通过普通图像传感器实现，对计算机视觉、农业及环保等跨界应用具有重大价值。",
+  "date_range": "2025-08-20 —— 2025-11-29",
+  "image": "/competition_covers/comp-009.webp",
+  "link": "https://hyper-object.github.io/"
+  },
+  {
+  "id": "comp-010",
+  "title": "CONVERGE 2026：面向 6G 无线通信的多模态学习挑战赛",
+  "host_event": "IEEE ICASSP",
+  "description": "本挑战赛聚焦 6G 高频通信中的信号损耗难题，探索视觉辅助无线感知的全新范式。参赛者需基于真实室内测试床提供的多模态数据集，构建融合视觉与射频信息的模型。竞赛设立了阻塞、定位、信道及波束预测四个独立赛道，旨在攻克高频系统在复杂场景下的鲁棒性痛点。通过这一赛事，主办方希望建立跨模态学习的新基准，促进通信、计算机视觉与人工智能等多个学科的深度交叉融合。",
+  "date_range": "2025-12-22 —— 2026-01-16",
+  "image": "/competition_covers/comp-010.webp",
+  "link": "https://converge-project.eu/converge-icassp-2026-sp-grand-challenge/"
+  },
+  {
+  "id": "comp-011",
+  "title": "RASE 2026：毫米波雷达辅助语音增强挑战赛",
+  "host_event": "IEEE ICASSP",
+  "description": "RASE挑战赛是ICASSP 2026的一项重要赛事，利用毫米波雷达测振原理实现复杂环境下的语音恢复。与传统麦克风不同，雷达可穿透障碍物且不受声学噪声干扰，通过感测物体表面微震动重建全带宽语音。竞赛设有直接感知与间接感知两个难度等级，重点考察算法在非视距场景下的性能。主办方提供配对数据集，无需雷达背景即可参与，旨在利用深度学习推动跨模态语音增强技术的发展。",
+  "date_range": "2025-09-20 —— 2025-11-22",
+  "image": "/competition_covers/comp-011.webp",
+  "link": "https://rase-challenge.github.io/RASE2026-Challenge/"
+  },
+  {
+  "id": "comp-012",
+  "title": "Reliable VQA 2025：面向选择性预测的可靠视觉问答挑战赛",
+  "host_event": "ICCV",
+  "description": "视觉问答领域已趋于饱和，但单纯追求准确率不足以满足真实场景需求。本竞赛聚焦“知道自己不知道什么”这一核心命题，在VQAv2数据集上评估模型的自知之明。理想的模型应在高精度回答的同时，能有效识别并过滤风险回答。通过攻克选择性预测难题，本次挑战赛致力于提升AI系统的可靠性与安全性。表现突出的团队受邀参加ICCV-CVLV研讨会，共同探讨多模态技术的落地边界。",
+  "date_range": "2025-08-05 —— 2025-10-06",
+  "image": "/competition_covers/comp-012.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2619/phases"
+  },
+  {
+  "id": "comp-013",
+  "title": "Perception Test 2025 任务二：目标与点联合跟踪挑战赛",
+  "host_event": "Deepmind",
+  "description": "本挑战赛旨在评估多模态视频模型的感知与推理能力。2025 年的任务 2 要求开发单一模型，同时处理目标边界框与 2D 特征点的联合跟踪。相较往年，今年强调架构的统一性，禁止对不同任务进行单独微调。竞赛提供高分辨率视频数据，设有 5 万欧元总奖金，优胜者受邀参加 ICCV 2025 研讨会，是探索跨尺度运动建模与空间对齐的顶级平台。",
+  "date_range": "2025-07-01 —— 2025-10-07",
+  "image": "/competition_covers/comp-013.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2563/overview"
+  },
+  {
+  "id": "comp-014",
+  "title": "Perception Test 2025 任务三：动作与声音联合时序定位挑战赛",
+  "host_event": "Deepmind",
+  "description": "本任务是 Perception Test 系列的核心环节，专注于音视频同步定位难题。开发者需构建通用模型，在高清视频中精准识别动作与声音事件的时间边界。竞赛要求单一模型必须具备同时处理视觉与声学模态的综合推理能力，挑战了传统的分离式分析范式。",
+  "date_range": "2025-07-01 —— 2025-10-07",
+  "image": "/competition_covers/comp-014.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2559/overview"
+  },
+  {
+  "id": "comp-015",
+  "title": "Perception Test 2025 任务四：具身视频问答挑战赛",
+  "host_event": "Deepmind",
+  "description": "具身视频问答挑战赛旨在全面考察多模态模型在动态场景下的感知与空间推理素质。不同于传统问答，本项目要求模型在输出文本答案的同时，必须同步锁定并跟踪视频中与答案对应的视觉对象。这种“所问即所见”的任务模式极大地提升了对模型时空理解精度的要求。该赛事依托权威基准，优胜团队将受邀在 ICCV 研讨会分享经验，共同推动下一代具身人工智能技术演进。",
+  "date_range": "2025-07-01 —— 2025-10-07",
+  "image": "/competition_covers/comp-015.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2558/overview"
+  },
+  {
+  "id": "comp-016",
+  "title": "VideoLLMs 2025：多语言视频推理评价挑战赛",
+  "host_event": "CVPR",
+  "description": "本次挑战赛依托 CVPR 2025，旨在评估视频大多模态模型（Video-LMMs）的多语言与跨文化推理能力。相较于仅关注英文的传统评测，该竞赛涵盖了阿拉伯语、中文等 14 种多样化语言，涉及 15 个真实领域和 8000 余个问答对。通过结合通用与文化范畴，赛事严谨测试了模型在全球语境下的认知深度。",
+  "date_range": "2025-04-05 —— 2025-06-05",
+  "image": "/competition_covers/comp-016.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2505/overview"
+  },
+  {
+  "id": "comp-017",
+  "title": "Perception Test 2025 任务一：多项选择视频问答挑战赛",
+  "host_event": "Deepmind",
+  "description": "本任务作为 Perception Test 2025 的核心赛道之一，通过多项选择题全方位评估视频模型的感知与推理能力。今年竞赛特别引入了统一格式，将点跟踪、动作定位及物体交互等复杂任务转化为多选问答。数据集涵盖记忆、物理、语义等四大领域，旨在挑战模型在动态场景下的深度逻辑理解，赛事鼓励零样本评估，共同探索多模态智能的边界。",
+  "date_range": "2025-07-01 —— 2025-10-07",
+  "image": "/competition_covers/comp-017.webp",
+  "link": "https://eval.ai/web/challenges/challenge-page/2547/overview"
+  },
+  {
+  "id"         : "comp-018",
+  "title"      : "VideoLLMs 2025：视频大语言模型推理挑战赛",
+  "host_event" : "CVPR",
+  "description": "本挑战赛是 CVPR 2025 的重要活动，专门用于评估视频大语言模型（Video-LLMs）在真实场景下的复杂推理与鲁棒性。不同于仅关注基础理解的基准，CVRR-ES 涵盖了时间顺序、细粒度动作、社交情感背景及物理异常等 11 个关键维度。通过 2400 个开放式问答对，该竞赛严谨测试了模型在处理虚假场景与复杂指令时的稳定性。赛事旨在推动多模态模型向更高级的认知与抗干扰能力演进。",
+  "date_range" : "2025-03-15 —— 2025-06-05",
+  "image"      : "/competition_covers/comp-018.webp",
+  "link"       : "https://eval.ai/web/challenges/challenge-page/2480/overview"
+  },
+  {
+  "id"         : "comp-019",
+  "title"      : "Roboflow-20VL：视觉-语言小样本目标检测挑战赛",
+  "host_event" : "CVPR",
+  "description": "基础模型在医疗和航拍影像等细分领域往往表现不佳。本挑战赛通过视觉-语言小样本识别视角，研究如何通过多模态指令将预训练模型对齐到目标概念。参赛团队需在每类仅 10 个标注样本基础上，开发能同时理解文本描述与视觉示例的检测器。优胜者将获得 Roboflow 提供的现金奖金，成果将在 CVPR 2025 研讨会上揭晓。这不仅是对算法的挑战，更是对未来自动化标注范式的深度探索。",
+  "date_range" : "2025-03-01 —— 2026-01-17",
+  "image"      : "/competition_covers/comp-019.webp",
+  "link"       : "https://eval.ai/web/challenges/challenge-page/2459/overview"
+  },
+  {
+  "id"         : "comp-020",
+  "title"      : "VidLLMs 2025：基于文本描述的组合式视频检索挑战赛",
+  "host_event" : "CVPR",
+  "description": "CoVR 2025 挑战赛聚焦于视频大多模态模型的前沿应用。任务要求模型整合原始视频语义与特定的文本指令（如改变物体或场景时间），精准定位反映这些组合变化的视频。这种“修改驱动型检索”对于智能媒体生成与视频推荐系统具有重要意义。竞赛鼓励利用 SOTA 的视频语言建模与多模态表征技术解决语义鸿沟。优胜团队将受邀在 CVPR 研讨会分享经验，共同探索下一代交互式检索范式。",
+  "date_range" : "2025-02-01 —— 2025-06-05",
+  "image"      : "/competition_covers/comp-020.webp",
+  "link"       : "https://eval.ai/web/challenges/challenge-page/2443/overview"
+  },
+  {
+  "id"         : "comp-021",
+  "title"      : "AVA 2025：视觉无障碍挑战赛",
+  "host_event" : "CVPR",
+  "description": "本挑战赛旨在利用多模态大模型（MLLM）为视障人士在复杂城市动态环境中提供安全、及时且具备环境感知能力的导航指令。通过构建基于视频的基准测试，竞赛聚焦于处理动态障碍物及复杂城市布局等核心难点，推动计算机视觉与机器人领域的深度融合。优胜团队将获500美金奖励并受邀在CVPR研讨会分享。",
+  "date_range" : "2025-03-31 —— 2025-09-10",
+  "image"      : "/competition_covers/comp-021.webp",
+  "link"       : "https://eval.ai/web/challenges/challenge-page/2491/phases"
+  }
+]

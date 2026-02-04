@@ -1,0 +1,27 @@
+{
+  "content": [
+    "./app.vue",
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue"
+  ],
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": "#165DFF",
+        "secondary": "#36D399",
+        "accent": "#FFAA33",
+        "dark": "#1E293B",
+        "light": "#F8FAFC"
+      },
+      "fontFamily": {
+        "inter": [
+          "Inter",
+          "system-ui",
+          "sans-serif"
+        ]
+      }
+    }
+  },
+  "plugins": []
+}

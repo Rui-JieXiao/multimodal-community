@@ -1,0 +1,1723 @@
+[
+  {
+    "title": "ShareGPT4Video",
+    "access_url": "https://huggingface.co/datasets/ShareGPT4Video/ShareGPT4Video",
+    "reference_url": "https://sharegpt4video.github.io/",
+    "description": "基于 GPT4-Vision 生成的 4.8M 大规模多模态视频描述数据集。旨在增强大视频语言模型（LVLMs）和文生视频模型（T2VMs）的模态对齐与细粒度视觉感知，助力开源模型追赶 GPT4V 和 Sora 的理解能力。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "VQA",
+      "Instruction-Tuning",
+      "Caption"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "4.8M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "COYO-700M",
+    "access_url": "https://huggingface.co/datasets/kakaobrain/coyo-700m",
+    "reference_url": "https://github.com/kakaobrain/coyo-dataset/",
+    "description": "COYO-700M 是由 Kakao Brain 开发的大规模图文对齐数据集，包含 7.47 亿对从 CommonCrawl 中提取的高质量图文对。它提供了丰富的元数据（如分辨率、相似度评分、NSFW 分数等），旨在为训练类似 CLIP、ALIGN 或文生图模型（如 Stable Diffusion）提供海量的基础素材。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Text-to-Image",
+      "Image-to-Text",
+      "Zero-Shot-Classification"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2022",
+    "samples": "747M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "ShareGPT4V",
+    "access_url": "https://huggingface.co/datasets/Lin-Chen/ShareGPT4V",
+    "reference_url": "https://arxiv.org/pdf/2311.12793",
+    "description": "ShareGPT4V 是一个由 GPT4-Vision 驱动的大规模高质量多模态描述数据集，包含 120 万条图文数据。该数据集旨在增强大语言多模态模型（LMMs）在预训练和指令微调阶段的模态对齐及细粒度视觉感知能力，推动开源模型性能向 GPT4-Vision 靠拢。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "1.2M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "AS-100M",
+    "access_url": "https://huggingface.co/datasets/OpenGVLab/AS-100M",
+    "reference_url": "https://arxiv.org/pdf/2308.01907.pdf",
+    "description": "AS-100M 是 All-Seeing 项目（AS-1B）的大规模精选子集，专注于全开放世界的泛视视觉识别与理解。该数据集包含超过 1 亿个区域级标注，涵盖语义标签、问答对（QA）及详细描述（Caption），支持图像/区域级别的识别、检索及复杂视觉推理任务。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "Caption",
+      "Grounding",
+      "Retrieval"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "100M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "InternVid",
+    "access_url": "https://huggingface.co/datasets/OpenGVLab/InternVid",
+    "reference_url": "https://arxiv.org/pdf/2307.06942",
+    "description": "InternVid 是由 OpenGVLab 开发的大规模视频-文本数据集，旨在促进多模态理解与生成。该数据集包含超过 700 万条（核心子集 InternVid-10M-FLT 包含 1000 万条）高质量视频片段及其对应的精细描述（Captions）。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Feature-Extraction",
+      "Caption",
+      "Alignment",
+      "Retrieval"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "10M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MS-COCO",
+    "access_url": "https://cocodataset.org/",
+    "reference_url": "https://arxiv.org/pdf/1405.0312.pdf",
+    "description": "微软推出的经典多模态基准数据集。包含超过 33 万张图像，提供了物体检测（Bounding Box）、实例分割（Segmentation）、人体关键点以及 5 句高质量的描述（Caption）标注。它是目前评估图像描述、多模态对齐及视觉感知算法最权威的标准之一。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "Detection",
+      "Grounding",
+      "Segmentation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2017",
+    "samples": "330K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "SBU Captions",
+    "access_url": "https://huggingface.co/datasets/vicenteor/sbu_captions",
+    "reference_url": "https://proceedings.neurips.cc/paper/2011/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf",
+    "description": "SBU Captioned Photo Dataset 是多模态学习领域的经典大规模数据集之一，包含超过 100 万张带有用户生成描述（Captions）的图像。该数据集通过在 Flickr 上搜索包含特定词汇的图片并进行过滤，筛选出图文相关性较高的配对。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "Alignment"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2011",
+    "samples": "1M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Conceptual Captions",
+    "access_url": "https://ai.google.com/research/ConceptualCaptions/",
+    "reference_url": "https://aclanthology.org/P18-1238.pdf",
+    "description": "这是一个通过对互联网图片及其 Alt-text 进行自动化清洗和“超验化”处理后得到的大规模图文平行数据集。它将原始文本中的专有名词替换为通用概念，为训练高性能的自动图像字幕系统提供了高质量且分布广泛的数据资源。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Image-to-Text",
+      "Caption",
+      "Pre-training"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2018",
+    "samples": "3.3M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "LAION-400M",
+    "access_url": "https://huggingface.co/datasets/laion/relaion400m",
+    "reference_url": "https://laion.ai/blog/laion-400-open-dataset/",
+    "description": "LAION-400M 是一个大规模的图文数据集，包含从Common Crawl中提取并经过CLIP模型过滤的4亿个图像-文本对。该数据集提供了图像 URL、原始文本描述（Alt-text）、CLIP 嵌入向量以及 kNN 索引，旨在为全球研究社区提供训练类似 CLIP 和 DALL-E 等大规模多模态模型的基础资源。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Pre-training",
+      "Text-to-Image",
+      "Image-to-Text",
+      "Zero-Shot-Classification",
+      "Benchmark"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2021",
+    "samples": "400M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "VG",
+    "access_url": "https://huggingface.co/datasets/ranjaykrishna/visual_genome",
+    "reference_url": "https://link.springer.com/content/pdf/10.1007/s11263-016-0981-7.pdf",
+    "description": "Visual Genome 是一个连接视觉与语言的密集标注数据集。其核心特色是提供了 540 万个区域描述（Region Descriptions），将图像场景分解为局部区域并关联自然语言短语，是研究细粒度视觉理解、属性识别和接地（Grounding）任务的核心基础资源。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "Grounding",
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2017",
+    "samples": "108K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Flickr30k Entities",
+    "access_url": "https://github.com/BryanPlummer/flickr30k_entities",
+    "reference_url": "https://arxiv.org/pdf/1505.04870",
+    "description": "Flickr30k Entities 是对标准 Flickr30k 数据集的重大扩展，通过手动标注的 27.6 万个边界框将 15.8 万条描述中的名词短语与图像区域对齐。该数据集建立了细粒度的区域与短语对应关系，是研究图像描述、短语接地（Phrase Grounding）及双向图文检索的核心基准。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "Grounding",
+      "Retrieval"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2017",
+    "samples": "30K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Wukong",
+    "access_url": "https://wukong-dataset.github.io/wukong-dataset/",
+    "reference_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a90b9a09a6ee43d6631cf42e225d73b4-Paper-Datasets_and_Benchmarks.pdf",
+    "description": "Wukong 是一个超大规模中文跨模态预训练基准数据集，包含从互联网搜集的 1 亿个高质量中文图文对，该数据集旨在填补中文大模型在多模态领域缺乏大规模开源基准的空白.",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Pre-training",
+      "Retrieval",
+      "Zero-Shot-Classification"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "year": "2022",
+    "samples": "100M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "GRIT",
+    "access_url": "https://github.com/microsoft/unilm/tree/master/kosmos-2",
+    "reference_url": "https://arxiv.org/pdf/2306.14824.pdf",
+    "description": "GRIT 是由微软为 KOSMOS-2 研发的大规模接地（Grounded）图文数据集。它通过自动化流水线将大规模图文对中的实体词映射到图像的具体边界框位置，使模型能够理解文本描述与视觉物体之间的空间对应关系，是训练多模态大语言模型定位能力的核心数据资源。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Pre-training",
+      "Grounding",
+      "Referring",
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "91M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Youku-mPLUG",
+    "access_url": "https://github.com/X-PLUG/Youku-mPLUG",
+    "reference_url": "https://arxiv.org/pdf/2306.04362",
+    "description": "Youku-mPLUG 是一个大规模中文视频-语言预训练数据集，包含从优酷精选的 1000 万个高质量视频-文本对。该数据集提供了涵盖跨模态检索、视频描述和视频分类三大任务的人工标注基准，旨在推动中文多模态大模型在视频理解领域的快速发展。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Pre-training",
+      "Retrieval",
+      "Caption",
+      "Classification"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "year": "2023",
+    "samples": "10M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MSR-VTT",
+    "access_url": "https://huggingface.co/datasets/friedrichor/MSR-VTT",
+    "reference_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Xu_MSR-VTT_A_Large_CVPR_2016_paper.pdf",
+    "description": "MSR-VTT 是由微软发布的经典大规模视频描述数据集，包含 20 个大类别的 1 万个视频片段。其核心特点是为每个视频提供了极其丰富的 20 条人工标注描述，是目前评估视频字幕生成（Video Captioning）和视频检索算法最常用的基准之一。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Video-to-Text",
+      "Caption",
+      "Retrieval"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2016",
+    "samples": "10K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Webvid",
+    "access_url": "https://github.com/m-bain/webvid",
+    "reference_url": "https://arxiv.org/pdf/2104.00650.pdf",
+    "description": "WebVid是由牛津大学 VGG 组发布的视频-文本数据集，其文本描述与视觉内容高度对齐，是训练端到端视频-文本检索模型（如 Frozen in Time）的核心基准。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Pre-training",
+      "Retrieval",
+      "Video-Generation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2021",
+    "samples": "2M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "WavCaps",
+    "access_url": "https://huggingface.co/datasets/cvssp/WavCaps",
+    "reference_url": "https://arxiv.org/abs/2303.17395",
+    "description": "WavCaps 是首个大规模弱标签音频字幕（Audio Captioning）数据集，包含约 40 万个音频片段及其对应的文本描述。实验证明，基于 WavCaps 训练的模型在多项音频-语言下游任务中大幅超越了此前的 SOTA 模型，为大规模音频多模态预训练提供了关键的基础资源。",
+    "modalities": [
+      "Audio",
+      "Text"
+    ],
+    "tasks": [
+      "Retrieval",
+      "Caption",
+      "Zero-Shot-Classification",
+      "Generation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "400K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "AISHELL-1",
+    "access_url": "http://www.openslr.org/33/",
+    "reference_url": "https://arxiv.org/abs/1709.05522",
+    "description": "AISHELL-1 是一个大规模开源中文普通话语音语料库，包含 178 小时由 400 位不同口音发言人录制的音频及对应的文本标注。该数据集由希尔贝壳（AISHELL）公司发布，旨在为中文语音识别研究提供高质量的基准数据，是目前学术界评测中文 ASR 模型性能的行业标准。",
+    "modalities": [
+      "Audio",
+      "Text"
+    ],
+    "tasks": [
+      "Automatic-Speech-Recognition",
+      "(ASR)"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "year": "2017",
+    "samples": "178hours",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "AISHELL-2",
+    "access_url": "https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2",
+    "reference_url": "https://arxiv.org/abs/1808.10583",
+    "description": "AISHELL-2 是一个工业级规模的开源中文普通话语料库，包含 1000 小时由 1991 位发言人录制的干净语音数据。相比 AISHELL-1，它不仅规模扩大了 5 倍以上，还提供了包含中文分词、词汇扩展等工业级应用组件的配套训练方案，是目前中文语音识别领域最重要的科研与工业参考基准之一。",
+    "modalities": [
+      "Audio",
+      "Text"
+    ],
+    "tasks": [
+      "Automatic-Speech-Recognition",
+      "(ASR)"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "year": "2018",
+    "samples": "1000hours",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Inst-IT Dataset",
+    "access_url": "https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset",
+    "reference_url": "https://arxiv.org/abs/2412.03565",
+    "description": "INST-IT 是一个旨在增强大模型“实例级理解”能力的大规模指令微调数据集。它通过引入显式的视觉提示（如边界框、掩码、轨迹等）作为指令指引，解决了现有模型在细粒度空间-时间对齐上的不足。该数据集涵盖了从静态图像到动态视频的多样化场景，是训练具身智能和高精度多模态助手的核心资源。",
+    "modalities": [
+      "Image",
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning",
+      "Instance-Understanding",
+      "Grounding",
+      "Referring"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "1.7M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "E.T. Instruct 164K",
+    "access_url": "https://huggingface.co/datasets/PolyU-ChenLab/ET-Instruct-164K",
+    "reference_url": "https://arxiv.org/abs/2409.18111",
+    "description": "E.T. Instruct 164K 是一个大规模视频指令微调数据集，旨在增强模型对长视频中细粒度事件及其时间边界的理解能力。它通过将 14 个现有数据集重构为统一的指令跟随格式，提供了涵盖检索、接地和稠密描述等任务的高质量训练数据，是 E.T. Bench 基准测试配套的高级预训练/微调资源。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning",
+      "Grounding",
+      "Caption",
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "164K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MSQA",
+    "access_url": "https://msr3d.github.io/",
+    "reference_url": "https://arxiv.org/abs/2409.02389",
+    "description": "MSQA 是一个大规模多模态情境推理数据集，旨在提升具身智能代理在复杂 3D 环境中的感知和推理能力。它创新性地结合了图像、文本和点云数据，解决了传统任务中存在的位置描述歧义问题。该数据集涵盖了 9 种评估维度，是目前研究 3D 场景下多模态大模型（VLM）情境感知能力的重要基准。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Point-Cloud"
+    ],
+    "tasks": [
+      "Situated-Reasoning",
+      "QA",
+      "3D-Scene-Understanding"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "251K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MM-Evol",
+    "access_url": "https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol",
+    "reference_url": "https://arxiv.org/abs/2409.05840",
+    "description": "MM-Evol通过提升感知精度、认知推理和交互深度，有效克服了传统多模态指令数据多样性不足和逻辑简单的瓶颈，旨在显著增强多模态大模型（MLLM）在现实复杂场景下的理解与推理能力。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning",
+      "Visual-Reasoning",
+      "QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "480K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "UNK-VQA",
+    "access_url": "https://github.com/guoyang9/UNK-VQA",
+    "reference_url": "https://arxiv.org/abs/2310.10942",
+    "description": "UNK-VQA 是一个专为提升视觉问答（VQA）模型“弃权”能力而设计的综合性数据集 。它通过对现有数据中的图像或问题进行五种精细化的语义扰动（如单词替换、对象掩码等），构建了难以识别的“不可回答”样本 。该数据集的核心任务是训练和评估多模态大模型在面对超出知识范围或不合逻辑的问题时，能否准确识别并拒绝回答，从而增强 AI 系统的可靠性与可信度 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "10K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "VEGA",
+    "access_url": "https://huggingface.co/datasets/zhourax977/VEGA",
+    "reference_url": "https://arxiv.org/abs/2406.10228",
+    "description": "VEGA 是一个专门为科学文献设计的交织图文理解（IITC）大规模多模态数据集 。它旨在解决多模态大模型在处理复杂长上下文时难以排除无关干扰的问题，包含 IITC 和图像-文本关联（ITA）两个子任务 。数据集强调在长达 8,000 tokens 且包含多达 8 张图像的交织内容中，模型需精准识别关联图像并根据复杂指令生成准确答案 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "IITC",
+      "Image-Text",
+      "Association"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "200K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "ALLaVA-4V",
+    "access_url": "https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V",
+    "reference_url": "https://arxiv.org/abs/2402.11684",
+    "description": "ALLaVA-4V 是一个旨在缩小轻量级视觉语言模型（lite LVLMs）与大规模模型性能差距的高质量合成数据集 。其核心任务是通过“先描述后问答”（Captioning-then-QA）的策略，利用 GPT-4V 为筛选后的图像生成细粒度的图像描述（用于视觉语言对齐）以及包含复杂推理能力的视觉问答对（用于指令微调） 。该数据集通过高质量数据补偿了轻量级模型在参数量上的不足，显著提升了模型的感知与认知能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "1.3M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "IDK",
+    "access_url": "https://github.com/ncsoft/idk",
+    "reference_url": "https://arxiv.org/abs/2402.09717",
+    "description": "IDK-Instructions 是一个视觉指令微调数据集，旨在解决多模态模型中的“我知（IK）”幻觉问题 。该数据集针对模型在面对无法回答或具有误导性的视觉提问时，仍会编造错误信息的痛点，通过生成包含“我不知道”或“不确定”等表述的专业指令，训练模型在不确定时拒绝作答，从而提升多模态对话的可靠性 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning",
+      "Mitigating-Visual-Hallucination"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "16.6K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "CAP2QA",
+    "access_url": "https://github.com/ncsoft/cap2qa",
+    "reference_url": "https://arxiv.org/abs/2402.08348",
+    "description": "CAP2QA-COCO 是基于 CAP2QA 框架利用 COCO-caption 构建的大规模多模态指令微调数据集 。其核心目的是通过将语言模型的生成范围限制在经过验证的图像描述中，解决生成式模型常见的“视觉幻觉”问题 。该数据集通过生成的句子级图像对齐问答对，旨在提升视觉语言模型在视觉识别任务中的表现、对齐度及表达准确性 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "Instruction-Tuning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "873K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "M3DBench",
+    "access_url": "https://github.com/OpenM3D/M3DBench",
+    "reference_url": "https://arxiv.org/abs/2312.10763",
+    "description": "M3DBench 是一个大规模、综合性的 3D 指令遵循数据集，旨在为开发现实世界 3D 环境中的通用助手奠定基础 。该数据集解决了现有 3D 数据集局限于特定任务且缺乏大规模指令数据的痛点，通过交织文本与图像、3D 物体及视觉提示，统一了区域和场景层面的多样化任务，涵盖感知、理解、空间推理及具身规划等核心能力 。",
+    "modalities": [
+      "Image",
+      "Text",
+      "3D",
+      "Spatial-Prompts"
+    ],
+    "tasks": [
+      "VQA",
+      "EQA",
+      "VLN"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "327K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "ViP-LLaVA-Instruct",
+    "access_url": "https://huggingface.co/datasets/mucai/ViP-LLaVA-Instruct",
+    "reference_url": "https://arxiv.org/abs/2312.00784",
+    "description": "该数据集是为训练 ViP-LLaVA 模型而专门开发的大规模视觉提示指令微调数据集 。其核心目的是解决现有模型在复杂场景中缺乏区域特定理解能力的问题 。该数据集通过在原始 RGB 图像上直接叠加多种形式的视觉标记（如箭头、方框、圆圈、随手涂鸦等），模拟人类直观的图像标注习惯 。它涵盖了从单区域推理到多区域关系分析的各类任务，旨在教导模型如何精准地解析用户通过任意视觉手段指定的图像区域 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Region-understanding",
+      "Spatial-perception",
+      "Object-counting",
+      "Reasoning",
+      "Caption"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "520k",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "ComVint",
+    "access_url": "https://github.com/RUCAIBox/ComVint?tab=readme-ov-file#comvint-data",
+    "reference_url": "https://arxiv.org/abs/2311.01487",
+    "description": "ComVint 是一个通过“合成-复杂化-重构（synthesize-complicate-reformulate）”范式自动生成的复杂视觉推理指令数据集，旨在解决现有指令集复杂度不足的问题，从而提升多模态大语言模型（MLLM）的零样本泛化能力 。该数据集核心涵盖了跨模态推理（图像内容与文本实体的映射）和外部知识推理（结合世界常识）两大任务 。通过迭代复杂化验证过程，ComVint 提供了比现有同类数据集更高难度的推理步骤 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning",
+      "Boolean-QA",
+      "Multiple-choice-QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "32K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "SparklesDialogue",
+    "access_url": "https://github.com/HYPJUDY/Sparkles#sparklesdialogue",
+    "reference_url": "https://arxiv.org/abs/2308.16463",
+    "description": "Sparkles Dialogue 是首个由机器生成的、专为词级交错的多图与文本交互设计的指令微调对话数据集 。该数据集旨在解决现有模型在处理涉及多图和多轮对话时难以保持连贯性的挑战 。通过使用 GPT-4 模拟用户与助手的对话，它涵盖了文本材料生成、寻求建议、引导及图像关联推理等多样化的真实世界任务，旨在显著提升多模态模型在复杂交互中的指令遵循能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "6.5K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "StableLLaVA",
+    "access_url": "https://github.com/icoz69/StableLLAVA",
+    "reference_url": "https://arxiv.org/abs/2308.10253v1",
+    "description": "StableLLaVA 是一个通过同步合成图像与对话数据构建的视觉指令微调数据集，旨在克服现有数据集因领域偏差对模型生成能力造成的限制 。该数据集利用 ChatGPT 生成图像提示词和关联对话，并配合 StableDiffusion 生成高质量图像，从而实现对训练数据内容和质量的高度可控 。其核心任务是增强多模态大语言模型在基础图像识别到复杂视觉推理等 12 项关键能力上的表现 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-Tuning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "126K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "M-HalDetect",
+    "access_url": "https://github.com/hendryx-scale/mhal-detect",
+    "reference_url": "https://arxiv.org/abs/2308.06394",
+    "description": "M-HalDetect 是一个专为大规模视觉语言模型（LVLM）设计的细粒度多模态幻觉检测数据集 。它旨在解决 LVLM 在生成详细图像描述时常出现的物体不存在、描述不忠实及关系不准确等幻觉问题 。该数据集包含 1.6 万条基于视觉问答（VQA）示例的细粒度标注，不仅关注物体本身，还涵盖了实体描述及空间关系的忠实度 。它是首个针对详细图像描述的全面多模态幻觉检测基准，可用于训练和评估幻觉检测与预防模型 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Multimodal-Hallucination-Detection-and-Prevention"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "16K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "SVIT",
+    "access_url": "https://github.com/BAAI-DCAI/Visual-Instruction-Tuning",
+    "reference_url": "https://arxiv.org/abs/2307.04087",
+    "description": "SVIT 是为了解决现有视觉指令数据规模较小、信息量不足且导致多模态模型能力受限的问题而提出的 。该数据集通过使用 GPT-4 结合 Visual Genome 的丰富人工标注（如区域描述、对象边界框等）生成，总计包含 420 万条高质量指令微调数据 。其核心任务涵盖了对话问答、复杂推理、指代问答和详细图像描述，旨在通过规模化数据显著提升多模态大语言模型在视觉感知、推理及规划方面的能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Reasoning",
+      "QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "4.2M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "LLaVAR",
+    "access_url": "https://llavar.github.io/#data",
+    "reference_url": "https://arxiv.org/abs/2306.17107",
+    "description": "该数据集旨在增强多模态大模型对“文本丰富图像”（如海报、书籍封面等）的理解能力 。它通过引入图像内的文本细节信息，解决了现有模型在处理此类图像时理解力不足的局限 。数据集由两部分组成：一是通过 OCR 工具在大规模图像上提取的 422K 条噪声指令数据；二是利用 GPT-4 基于 OCR 结果和图像描述生成的 16K 条高质量多轮对话数据，重点提升模型在文本视觉问答（Text-based VQA）及复杂推理任务中的表现 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "438K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MotionGPT",
+    "access_url": "https://github.com/OpenMotionLab/MotionGPT",
+    "reference_url": "https://arxiv.org/abs/2306.14795",
+    "description": "MotionGPT 并非传统意义上的单一静态数据集，而是一个统一的运动-语言多任务基准。它基于 HumanML3D、KIT 和 AMASS 等已有数据，通过指令模板将其构建成包含 14 个核心任务（如文本生成运动、运动字幕、运动预测等）和上千种不同提示词的指令微调数据集，旨在将人体运动作为一种“外语”与大语言模型统一建模。",
+    "modalities": [
+      "3D",
+      "Text"
+    ],
+    "tasks": [
+      "Text-to-motion",
+      "Motion-to-text",
+      "Motion-prediction",
+      "Motion-in-between"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "51.3K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "LRV-Instruction",
+    "access_url": "https://github.com/FuxiaoLiu/LRV-Instruction#visual-instruction-data-lrv-instruction",
+    "reference_url": "https://arxiv.org/abs/2306.14565",
+    "description": "LRV-Instruction 是首个大规模且多样化的视觉指令微调数据集，旨在通过引入正向和负向指令来增强多模态大模型（LMMs）的稳健性，从而缓解模型幻觉问题 。该数据集包含 40 万条由 GPT4 生成的视觉指令，涵盖 16 种视觉语言任务，并设计了三个语义层面的负向指令（不存在物体、存在物体误导及知识操控），教导模型忠实地根据图像内容进行回复 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "OCR"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "400K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Macaw-LLM",
+    "access_url": "https://github.com/lyuchenyang/Macaw-LLM/",
+    "reference_url": "https://www.researchgate.net/publication/371540959_Macaw-LLM_Multi-Modal_Language_Modeling_with_Image_Audio_Video_and_Text_Integration",
+    "description": "Macaw-LLM指令数据集旨在解决现有大模型在非文本模态上研究不足以及多模态数据集任务类型局限的问题 。利用GPT-3.5-TURBO生成的对齐文本，该数据集包含大量图像和视频指令实例 。其核心任务是提升模型在多模态场景下理解并准确执行单轮对话指令的能力 。",
+    "modalities": [
+      "Image",
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Instruction-following"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "119K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "VideoInstruct-100K",
+    "access_url": "https://huggingface.co/datasets/MBZUAI/VideoInstruct-100K",
+    "reference_url": "https://arxiv.org/abs/2306.05424",
+    "description": "Video-ChatGPT 数据集包含 10 万个视频-指令对，旨在解决现有模型无法针对视频内容进行连贯、开放式对话的问题 。该数据集通过人工辅助与半自动流水线构建，涵盖了详细描述、摘要、问答以及激发创意的生成式任务 。其核心用途是训练模型捕捉视频中的时空动态、帧间一致性及长程关系，从而提升模型的视频推理和对话生成能力 。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "100K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MIMIC-IT",
+    "access_url": "https://huggingface.co/datasets/pufanyi/MIMICIT",
+    "reference_url": "https://arxiv.org/abs/2306.05425",
+    "description": "MIMIC-IT 是一个拥有 280 万条指令对 的大规模多模态上下文指令微调数据集，旨在全面提升视觉语言模型（VLM）的感知、推理与规划能力。相较于多数仅提供英文的数据集，该数据集具备极高的全球通用性含金量，原生支持包括中文在内的 8 种主流语言，打破了学术界多模态指令数据过度依赖单一语种的局限，为构建具备跨语言交互能力的视觉模型提供了关键支撑。",
+    "modalities": [
+      "Image",
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Perception",
+      "Reasoning",
+      "Planning"
+    ],
+    "languages": [
+      "Multilingual"
+    ],
+    "year": "2023",
+    "samples": "2.8M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "M3IT",
+    "access_url": "https://huggingface.co/datasets/MMInstruction/M3IT",
+    "reference_url": "https://arxiv.org/abs/2306.04387",
+    "description": "M3IT是一个大规模多模态多语言指令微调数据集，旨在解决开源视觉语言模型（VLM）指令数据匮乏的问题 。它通过将 40 个数据集统一为“视觉到文本”结构，包含约 240 万个样本和 400 条人工指令，涵盖 80 种语言，核心任务是优化 VLM 与人类指令的对齐 。",
+    "modalities": [
+      "Image",
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "VQA",
+      "KVQA",
+      "Reasoning"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "year": "2023",
+    "samples": "2.4M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "LLaVA-Med",
+    "access_url": "https://github.com/microsoft/LLaVA-Med#llava-med-dataset",
+    "reference_url": "https://arxiv.org/abs/2306.00890",
+    "description": "LLaVA-Med 是首个将多模态指令微调扩展至生物医学领域的尝试，旨在训练一个能够理解生物医学图像并进行开放式对话的端到端助手 。该数据集通过利用从 PubMed Central 提取的大规模生物医学图表说明文字（Caption），并借助 GPT-4 生成多元化的指令遵循数据，解决了通用领域多模态模型在生物医学场景下表现不佳、容易产生幻觉的问题 。其核心用处是训练模型遵循开放式指令，协助解答关于生物医学图像的研究性查询 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Medical-VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "660K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "GPT4Tools",
+    "access_url": "https://github.com/AILab-CVC/GPT4Tools?tab=readme-ov-file#dataset",
+    "reference_url": "https://arxiv.org/abs/2305.18752",
+    "description": "GPT4Tools 是一个通过自指令（self-instruct）方法构建的指令遵循数据集，旨在解决开源大语言模型在多模态工具调用方面的局限性 。该数据集通过提示高级教师模型（如 ChatGPT），结合视觉内容描述和工具定义，生成包含视觉理解（如物体定位、分割）和图像生成等任务的指令对 。其核心用途是教导原始语言模型学习何时以及如何调用多模态工具来解决复杂的视觉问题 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Multimodal-Tool-Usage"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "71.4K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MULTIS",
+    "access_url": "https://iva-chatbridge.github.io/",
+    "reference_url": "https://arxiv.org/abs/2305.16103",
+    "description": "MULTIS 是一个专为多模态指令微调（Instruction-tuning）设计的综合性数据集，旨在增强大语言模型理解、关联和推理多种现实世界模态的能力。该数据集包含 16 个任务类别，由标准化的特定任务数据（如问答和描述）以及模拟真实场景的开放式多模态对话数据组成，通过指令对齐使用户能够以自然语言与模型进行多轮跨模态交互。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Video",
+      "Audio"
+    ],
+    "tasks": [
+      "QA",
+      "Caption",
+      "Dialogue"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "year": "2023",
+    "samples": "4.4M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "DetGPT微调数据集",
+    "access_url": "https://github.com/OptimalScale/DetGPT",
+    "reference_url": "https://arxiv.org/abs/2305.14167",
+    "description": "该数据集是为“基于推理的目标检测”任务专门构建的高质量指令微调数据集，旨在解决传统检测器依赖特定物体名称、无法处理抽象指令的问题 。其核心任务是使模型能够理解人类的自然语言描述（如目标、欲望或需求），并结合图像内容与常识进行推理，从而精准定位未显式提及的目标物体（例如通过“想要冷饮”的需求定位“冰箱”） 。该数据集通过结合图像标题和目标类别，利用 ChatGPT 的生成能力自动构建，为具身智能和人机交互研究提供了关键支撑 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Reasoning-based-object-detection",
+      "Instruction-following-tuning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "30K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "PMC-VQA",
+    "access_url": "https://huggingface.co/datasets/RadGenome/PMC-VQA",
+    "reference_url": "https://arxiv.org/abs/2305.10415",
+    "description": "PMC-VQA 是一个大规模医疗视觉问答数据集，旨在解决现有医疗 VQA 数据集规模有限、难以支撑训练高性能生成式模型的问题 。该数据集通过自动化的可扩展流水线从 PubMedCentral 开放获取子集中构建，包含约 14.9 万张图像及 22.7 万个问答对 。其核心任务是将 MedVQA 重新定义为生成任务，以模拟真实的医患交互 。数据集内容涵盖放射学、病理学等多种模态，问题难度跨越从器官识别到需要临床专业知识的复杂推理 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Generative-Medical-VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "227K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "X-LLM",
+    "access_url": "https://github.com/phellonchen/X-LLM",
+    "reference_url": "https://arxiv.org/abs/2305.04160",
+    "description": "该数据集是为增强大语言模型（LLM）的多模态能力而构建的高质量指令数据集 。它旨在解决模型在处理跨模态任务时的统一性问题，通过将图像、视频和语音信息对齐至统一的语言空间，使模型能够执行视觉语音问答、多模态机器翻译和复杂跨模态对话等任务 。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Vedio",
+      "Audio"
+    ],
+    "tasks": [
+      "VQA",
+      "ASR"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "year": "2023",
+    "samples": "10K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "cc-sbu-align",
+    "access_url": "https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align",
+    "reference_url": "https://arxiv.org/abs/2304.10592",
+    "description": "该数据集是 MiniGPT-4 在第一预训练阶段使用的组合图像描述数据集，由 LAION、Conceptual Captions 和 SBU 三个公开数据集整合而成 。其核心任务是提供大规模的图像-文本对，用于训练视觉编码器与大语言模型（Vicuna）之间的线性投影层，使模型获取基础的视觉语言知识，并实现视觉特征与语言模型的初步对齐 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Vision-language-knowledge-acquisition"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "5M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MIC",
+    "access_url": "https://huggingface.co/datasets/BleachNick/MIC_full",
+    "reference_url": "https://arxiv.org/abs/2309.07915",
+    "description": "MIC 数据集旨在增强视觉语言模型（VLM）理解复杂多模态提示（如交错的图文输入）的能力 。它通过收集公开数据资源，并基于特定的上下文方案进行转换，涵盖了图像声明、具有时空或逻辑关联的多图数据，以及统一的上下文学习格式 。该数据集将多样化的视觉任务转化为统一的视觉语言问答（Q&A）形式，旨在显著提升模型的指令感知和多模态上下文学习性能 。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "5.8M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "EgoCOT",
+    "access_url": "https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch",
+    "reference_url": "https://arxiv.org/abs/2305.15021",
+    "description": "EgoCOT 是一个大规模具身智能规划数据集，旨在解决机器人领域缺乏开源详尽任务分解数据的问题 。该数据集基于 Ego4D 筛选出的第一人称视角视频，并配有高质量的“思维链”（Chain of Thought）指令 。其核心任务是通过将长程任务分解为一系列子目标序列，提升具身智能体在物理环境中的多模态理解与执行规划能力 。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Embodied-Planning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "3.85M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "ScienceQA",
+    "access_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+    "reference_url": "https://arxiv.org/abs/2209.09513",
+    "description": "ScienceQA 是一个大规模多模态科学问答基准数据集，包含约 2.1 万个多项选择题 。该数据集旨在解决现有科学问答任务中缺乏答案标注、模态单一及领域覆盖面窄的问题 。其核心任务是要求模型在处理图像和文本等多模态信息的基础上，通过生成对应的授课内容（Lecture）和详细解释（Explanation）来模拟人类的多步思维链推理过程，从而提高模型的可解释性和推理能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Multimodal-MCQ-QA",
+      "CoT-Explanation-Generation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2022",
+    "samples": "21K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "VLFeedback",
+    "access_url": "https://huggingface.co/datasets/MMInstruction/VLFeedback",
+    "reference_url": "https://arxiv.org/abs/2312.10665",
+    "description": "VLFeedback 是一个通过 AI 标注构建的大规模多模态偏好数据集 。该数据集旨在解决开源大型视觉语言模型（LVLM）在生成过程中存在的误导性内容、未锚定视觉上下文及偏见响应等不对齐问题 。其核心任务是为偏好蒸馏提供监督信号，涵盖了由 12 个 LVLM 针对 80k 条指令生成的响应，并由 GPT-4V 从有用性、视觉忠实度和道德考量三个维度进行评分与排序，从而通过直接偏好优化（DPO）显著提升模型的感知与认知能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Preference-Distillation"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "year": "2023",
+    "samples": "80K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Inst-IT",
+    "access_url": "https://huggingface.co/datasets/Inst-IT/Inst-It-Dataset",
+    "reference_url": "https://arxiv.org/abs/2412.03565",
+    "description": "INST-IT是一个经过人工验证的专业基准测试，旨在诊断和评估大型多模态模型（LMMs）在图像和视频中的实例级理解能力 。该基准解决了现有评估体系侧重全局理解而忽视细粒度对象细节的问题 。它涵盖了空间和时间两个维度，通过高质量的开放式及多项选择问答对，重点考察模型对单个实例属性、空间位置及其在视频中动态变化的理解 。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "Open-ended-QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "2K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "M3CoT",
+    "access_url": "https://huggingface.co/datasets/LightChen2333/M3CoT",
+    "reference_url": "https://arxiv.org/abs/2405.16473",
+    "description": "M3CoT是一个旨在推动多领域、多步、多模态思维链（CoT）推理研究的新型基准数据集 。它针对现有基准中存在的视觉推理缺失、推理步骤过于简单（单步）以及领域覆盖不足（缺少数学和常识）等挑战而提出 。该数据集要求模型必须结合文本与视觉模态进行复杂的步进式推理，从而更真实地评估视觉大语言模型（VLLMs）在科学、数学和常识领域的逻辑推理能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Multi-domain-Multi-step-Multi-modal-Chain-of-Thought-Reasoning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "11K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MMGenBench",
+    "access_url": "https://huggingface.co/datasets/lerogo/MMGenBench",
+    "reference_url": "https://arxiv.org/abs/2411.14062",
+    "description": "MMGenBench 是一个全自动的多模态大模型（LMM）评估流水线及基准测试。它旨在解决现有评估方法依赖人工标注、任务领域局限以及模型输出过简等问题。该数据集通过让 LMM 生成图像的详细文本描述，并利用文生图模型重构图像，最后比对原始与重构图像的相似性，从而精准评估模型在图像理解与详细描述方面的能力。它涵盖了 13 种不同的图像模式（MMGenBench-Test）以及专门针对生成图像领域的测试（MMGenBench-Domain）",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Detailed-Image-Description"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "11K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "LiveXiv",
+    "access_url": "https://huggingface.co/datasets/LiveXiv/LiveXiv",
+    "reference_url": "https://arxiv.org/abs/2410.10783",
+    "description": "LiveXiv 是一个基于 ArXiv 科学论文的可扩展、动态演进的多模态基准测试集 。该数据集旨在解决多模态大模型在静态基准测试中面临的数据污染问题，通过自动从最新论文中提取图表、表格等内容并生成视觉问答（VQA）对，以真实评估模型的学术理解与推理能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "TQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "16K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "TemporalBench",
+    "access_url": "https://huggingface.co/datasets/microsoft/TemporalBench",
+    "reference_url": "https://arxiv.org/abs/2410.10818",
+    "description": "TemporalBench 是一个专注于评估多模态模型对视频中细粒度时间动态理解能力的基准测试集 。针对现有视频基准测试因标注粗糙而偏向于静态图像识别的问题，它通过约 2,000 个高质量人类标注视频片段，构建了约 10,000 个视频问答对 。其核心任务是测试模型对动作频率、运动幅度、事件顺序等时间维度的推理能力，支持视频问答、视频描述生成、短视频与长视频理解等任务，旨在弥补 AI 与人类在时间理解上的显著差距 。",
+    "modalities": [
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "VQA",
+      "Caption"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "10K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "OmniBench",
+    "access_url": "https://huggingface.co/datasets/m-a-p/OmniBench",
+    "reference_url": "https://arxiv.org/abs/2409.15272",
+    "description": "OmniBench 是一个旨在评估多模态大语言模型（MLLMs）在视觉、听觉及文本三模态并发输入下识别、解释与推理能力的综合性基准测试集 。其核心要求是模型必须同时整合三种模态的互补信息才能得出准确答案 。该数据集通过高质量的人类标注，涵盖了从基础感知到复杂逻辑推理的多维度任务，模拟人类认知的跨模态互联本质 。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Audio"
+    ],
+    "tasks": [
+      "Causal-Reasoning"
+    ],
+    "languages": [
+      "Multilingual"
+    ],
+    "year": "2024",
+    "samples": "1.1K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MME-RealWorld",
+    "access_url": "https://huggingface.co/datasets/yifanzhang114/MME-RealWorld",
+    "reference_url": "https://arxiv.org/abs/2408.13257",
+    "description": "MME-RealWorld 是一个针对多模态大模型的大规模、高分辨率手动标注评测基准，旨在解决现有基准在数据规模、标注质量及任务难度（尤其是图像分辨率）方面的局限性 。该数据集专注于现实世界应用，涵盖自动驾驶、遥感、视频监控等 5 大领域及 43 个子任务，包含由专业人员标注的极具挑战性的问答对，甚至对人类而言也颇具难度 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Multiple-Choice",
+      "QA"
+    ],
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "year": "2024",
+    "samples": "30K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "VELOCITI",
+    "access_url": "https://huggingface.co/datasets/katha-ai-iiith/VELOCITI",
+    "reference_url": "https://arxiv.org/abs/2406.10889",
+    "description": "VELOCITI 是一个旨在评估视频大语言模型（Video-LLMs）组合推理能力的基准测试数据集 。它专门针对短视频（10秒电影片段）设计，通过解构并评估模型对主体（Agents）、动作（Actions）及其跨多个事件关联性的理解来解决当前模型在复杂视觉推理中的局限性 。该数据集采用“严格视频-语言蕴含（StrictVLE）”任务，要求模型准确判断视频与正面或负面描述的逻辑对应关系，而非简单的相似度排序，从而揭示模型在实体绑定和时序推理上的瓶颈 。",
+    "modalities": [
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "VQA",
+      "Text",
+      "Ranking"
+    ],
+    "languages": [
+      "Text",
+      "Retrieval"
+    ],
+    "year": "en",
+    "samples": "3.1K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "CharXiv",
+    "access_url": "https://huggingface.co/datasets/princeton-nlp/CharXiv",
+    "reference_url": "https://arxiv.org/abs/2406.18521",
+    "description": "CharXiv 是一个专为评估多模态大模型（MLLMs）在真实图表理解能力而设计的综合基准。它旨在解决现有数据集因图表过于简化且问题模版化而导致模型性能评估虚高的问题 。该数据集包含 2,323 张从 arXiv 科学论文中精选的真实、具有挑战性且视觉多样化的图表 。任务涵盖了检查基础图表元素的“描述性问题”和需要综合复杂视觉信息进行数值分析的“推理型问题”，旨在提供更真实、更可信的进展衡量标准 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "DQA",
+      "QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "11.6K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "VL-ICL",
+    "access_url": "https://huggingface.co/datasets/ys-zong/VL-ICL",
+    "reference_url": "https://arxiv.org/abs/2403.13164",
+    "description": "VL-ICL是首个针对多模态大模型（VLLMs）设计的综合性上下文学习（ICL）审计基准 。该数据集旨在解决现有 VQA 和图像描述任务无法有效区分模型“上下文学习能力”与“零样本能力”的局限，通过引入涵盖细粒度感知、逻辑推理、规则归纳及长上下文处理的多元化任务，全面评估模型在不更新权重的情况下，仅通过少量示例（Few-shot）学习新功能的能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Image-to-Text",
+      "Text-to-Image"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "17K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "TempCompass",
+    "access_url": "https://huggingface.co/datasets/lmms-lab/TempCompass",
+    "reference_url": "https://arxiv.org/abs/2403.00476",
+    "description": "TempCompass 是一个专门用于评估视频大语言模型（Video LLMs）时间感知能力的综合性评测基准 。该数据集针对现有基准无法区分细微时间维度（如速度、方向）且任务格式单一的问题，引入了五种基本时间维度和四种任务格式 。其核心用途是测试模型是否真正理解视频的动态信息，而非依赖单帧偏见或语言先验 。",
+    "modalities": [
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "Multi-Choice-QA",
+      "Caption-Matching"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "7.5K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "CoBSAT",
+    "access_url": "https://huggingface.co/datasets/yzeng58/CoBSAT",
+    "reference_url": "https://arxiv.org/abs/2402.01293",
+    "description": "CoBSAT 是首个专门用于评估多模态大模型（MLLM）在“文到图语境学习”（T2I-ICL）能力的基准数据集 。该数据集旨在测试模型能否通过少量文本-图像对示例，在不更新参数的情况下，学习并执行从低维文本输入到高维图像输出的映射任务 。它涵盖了颜色、背景、风格、动作和纹理五大主题，并细分为物体推理和属性推理两类核心任务 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "T2I-ICL"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "40K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Math-Vision",
+    "access_url": "https://huggingface.co/datasets/MathLLMs/MathVision",
+    "reference_url": "https://arxiv.org/abs/2402.14804",
+    "description": "Math-Vision是一个由 3,040 个高质量数学问题组成的多模态基准数据集，题目均源自真实的数学竞赛 。该数据集涵盖了从小学到高中的 12 个年级，跨越代数、几何、算术等 16 个细分数学学科，并按难度分为 5 个等级 。其核心用途是提供一个比现有基准更具多样性和挑战性的测试平台，专门用于评估大型多模态模型（LMMs）在复杂视觉语境下的高级数学推理能力，并揭示模型与人类在处理这些任务时的性能差距 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Mathematical-Reasoning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "3K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "SciMMIR",
+    "access_url": "https://huggingface.co/datasets/m-a-p/SciMMIR",
+    "reference_url": "https://arxiv.org/abs/2401.13478",
+    "description": "SciMMIR 是首个专门针对科学领域设计的跨模态信息检索（MMIR）基准。它旨在解决现有通用基准忽略科学领域特性的问题（如科学图表多描述实验结果而非风景），通过从 arXiv 论文中提取并精炼出 53 万组科学图表及其标题。该数据集支持文本搜图和图像搜文的双向检索任务，涵盖了实验结果、模型架构和科学原理等五类细分任务，用于全面评估模型对复杂科学知识的表征与对齐能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Image-to-Text",
+      "Text-to-Image"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "530K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "CMMMU",
+    "access_url": "https://huggingface.co/datasets/m-a-p/CMMMU",
+    "reference_url": "https://arxiv.org/abs/2401.11944",
+    "description": "CMMMU 是一个旨在评估大语言多模态模型（LMMs）在中文语境下处理大学水平学科知识和深度推理能力的基准测试 。该数据集包含约 1.2 万道手动收集的多模态题目，涵盖艺术、商业、科学、医学、人文社科及技术工程 6 大核心学科的 30 个子专业 。其核心任务是挑战模型在专业领域内的复杂感知与逻辑推理能力，填补了非英语环境下专家级多模态评估的空白 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Benchmark"
+    ],
+    "languages": [
+      "Chinese"
+    ],
+    "year": "2024",
+    "samples": "12K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "TimeIT",
+    "access_url": "https://huggingface.co/datasets/ShuhuaiRen/TimeIT",
+    "reference_url": "https://arxiv.org/abs/2312.02051",
+    "description": "TimeIT 是首个专门为指令微调（Instruction Tuning）设计的时感视频数据集，旨在激发视频大语言模型（VidLLMs）内在的时间戳定位能力并增强其指令遵循表现 。该数据集整合了多种与时间戳关联的长视频资源（平均时长达 190.8 秒），涵盖了密集描述、时序定位等 6 类核心任务，解决了现有模型在长视频理解中难以将视觉内容与精确时间戳关联的问题 。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "Grounding"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "125K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "BenchLMM",
+    "access_url": "https://huggingface.co/datasets/AIFEG/BenchLMM",
+    "reference_url": "https://arxiv.org/abs/2312.02896",
+    "description": "BenchLMM 是一个用于评估大型多模态模型（LMM）跨风格视觉推理能力的基准测试。它针对现有基准视觉多样性不足（多为网络照片）的问题，引入了艺术、传感器和应用三大类分布偏移（含 15 个子风格） 。核心任务是通过非 RGB 相机影像、艺术画作及需要专业知识的行业影像，全面衡量 LMM 在应对视觉分布偏移时的鲁棒性 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Reasoning",
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "2.3K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MMC-Benchmark",
+    "access_url": "https://huggingface.co/datasets/xywang1/MMC",
+    "reference_url": "https://arxiv.org/abs/2311.10774",
+    "description": "MMC-Instruction 是一个针对图表图像理解的大规模多模态数据集，规模达 60 万个实例 。该数据集通过整合图表-文本对齐数据与由 GPT-4 生成的多样化指令微调数据，旨在解决大语言模型在处理图表特有的抽象元素（如趋势线、图例）时存在的理解鸿沟 。它支持包括信息提取、逻辑推理及结构化转换在内的九类任务，涵盖了学术研究、商业、医疗等多种专业领域及各类复杂图表类型 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Chart-Reasoning",
+      "Chart-to-Json"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "600K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MVBench",
+    "access_url": "https://huggingface.co/datasets/OpenGVLab/MVBench",
+    "reference_url": "https://arxiv.org/abs/2311.17005",
+    "description": "MVBench 是一个综合性的多模态视频理解基准测试集，旨在评估多模态大语言模型（MLLMs）的时序理解能力 。该数据集通过创新的“静态到动态”方法，将各种静态图像任务转化为需要视频全局推理的 20 个挑战性时序任务，涵盖了从基础感知到高级认知的广泛时序技能，填补了现有基准侧重静态图像空间的空白 。",
+    "modalities": [
+      "Video",
+      "Text"
+    ],
+    "tasks": [
+      "VQA",
+      "Video-Classification"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "4K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Bingo",
+    "access_url": "https://huggingface.co/datasets/PahaII/Bingo",
+    "reference_url": "https://arxiv.org/abs/2311.03287",
+    "description": "Bingo (Bias and Interference Challenges in Visual Language Models) 是一个专门用于系统化评估视觉语言模型（VLM）幻觉行为的学术基准数据集 。该数据集重点针对“偏见”（地域、OCR、事实偏见）与“干扰”（图对图、文对图干扰）两大诱因，收集了 190 个模型失败案例及对比样本 。其核心任务是量化并分析模型在复杂多模态交互中产生幻觉的原因，为提升 VLM 的可靠性提供评价标准 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Image-to-Text",
+      "Text-to-Image"
+    ],
+    "languages": [
+      "Multilingual"
+    ],
+    "year": "2023",
+    "samples": "0.3K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "PCA-EVAL",
+    "access_url": "https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1",
+    "reference_url": "https://arxiv.org/abs/2310.02071",
+    "description": "PCA-EVAL 是一个旨在评估具身智能体（Embodied Agents）决策能力的创新评估基准 。该数据集改变了以往仅依赖最终奖励或成功率的单一评价方式，通过将决策过程分解为单步问题，从感知（Perception）、认知（Cognition）和行动（Action）三个关键维度进行多维度评估 。它涵盖了自动驾驶、家政辅助和开放世界游戏三大核心具身 AI 领域，用于衡量模型在复杂现实环境中的综合决策表现 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Embodied-Decision-Making"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "0.3K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MathVista",
+    "access_url": "https://huggingface.co/datasets/AI4Math/MathVista",
+    "reference_url": "https://arxiv.org/abs/2310.02255",
+    "description": "MathVista 是一个旨在系统性研究基础模型（如 LLMs 和 LMMs）在视觉语境下数学推理能力的综合基准测试集 。该数据集通过整合 28 个现有数据集并新增 3 个专门设计的数学数据集，构建了包含 6,141 个多样化样本的评估平台 。其核心任务是解决基础模型在严谨数学推理与深度视觉理解结合方面的局限性，从而推动能够处理数学密集型且视觉丰富型现实任务的通用 AI 智能体的发展 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "FQA",
+      "GPS",
+      "MWP",
+      "TQA",
+      "VQA"
+    ],
+    "languages": [
+      "Multilingual"
+    ],
+    "year": "2023",
+    "samples": "6.1K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "SciGraphQA",
+    "access_url": "https://github.com/findalexli/SciGraphQA#data",
+    "reference_url": "https://arxiv.org/abs/2308.03349",
+    "description": "SciGraphQA 是一个针对学术图表的大规模合成多轮问答数据集 。它旨在解决多模态大模型（MLLM）在理解和解释复杂科学图表方面的挑战，填补了现有 VQA 数据集往往仅关注简单事实或图表构成的空白 。该数据集利用 Palm-2 模型，结合论文标题、摘要、正文段落及 OCR 文本，生成了涵盖数据趋势、图形解析和复杂推理的开放式多轮对话，为科学领域的多模态研究提供了严谨的基准 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Scientific-Graph-VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "295K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MM-Vet",
+    "access_url": "https://huggingface.co/datasets/whyu/mm-vet",
+    "reference_url": "https://arxiv.org/abs/2308.02490",
+    "description": "MM-Vet 是一个专门用于评估大型多模态模型（LMMs）处理复杂任务能力的基准测试 。其核心设计理念在于，解决复杂的现实多模态问题需要模型集成并协作多种核心能力，如识别、OCR、知识、语言生成、空间感知和数学 。该基准通过这六大核心能力的 16 种集成组合来系统地考察模型的综合性能，旨在为研究者提供超越简单性能排名的模型能力深度洞察 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Language-Generation",
+      "Spatial-Awareness"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "0.2K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "Lynx",
+    "access_url": "https://github.com/bytedance/lynx-llm#prepare-data",
+    "reference_url": "https://arxiv.org/abs/2307.02469",
+    "description": "该数据集是为训练 Lynx 模型专门构建的大规模多模态指令微调集合，包含 50 多项任务 。其核心目的是解决 GPT4 风格模型在多模态理解准确性与文本生成能力之间的平衡难题 。数据集通过将图像/视频问答、描述生成、分类等公开数据转化为统一的指令遵循格式，并结合 GPT4 生成的多样化提示词，旨在提升模型在处理开放式、非专家用户指令时的泛化性能 。",
+    "modalities": [
+      "Image",
+      "Text",
+      "Video"
+    ],
+    "tasks": [
+      "VQA",
+      "Caption"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "120M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "MME",
+    "access_url": "https://github.com/MME-Benchmarks/Video-MME?tab=readme-ov-file#-dataset",
+    "reference_url": "https://arxiv.org/abs/2405.21075",
+    "description": "Video-MME 是首个专为评估多模态大语言模型（MLLMs）在视频分析能力而设计的全频谱综合基准测试 。该数据集旨在解决现有基准在视频类型多样性、时间动态覆盖及模态单一性方面的不足 。它通过手动收集 900 个涵盖 6 大领域、30 个细分领域的视频，时长跨度从 11 秒到 1 小时不等，旨在全方位评估模型在感知、推理及长文本建模等方面的性能 。",
+    "modalities": [
+      "Text",
+      "Vedio",
+      "Audio"
+    ],
+    "tasks": [
+      "Perception",
+      "Reasoning"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2024",
+    "samples": "2.7K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "LAMM-Benchmark",
+    "access_url": "https://github.com/OpenLAMM/LAMM",
+    "reference_url": "https://arxiv.org/abs/2306.06687",
+    "description": "LAMM（语言辅助多模态）是一个开源的多模态指令微调数据集、框架和基准，旨在构建能弥合想法与执行差距的 AI 智能体，促进无缝的人机交互 。该数据集通过将传统的 2D 图像和 3D 点云视觉任务转化为指令-回复对，提升多模态大语言模型（MLLM）对视觉指令的理解与泛化能力，其核心内容涵盖了细粒度视觉信息和事实性知识 。",
+    "modalities": [
+      "Image",
+      "3D",
+      "Text"
+    ],
+    "tasks": [
+      "Caption",
+      "VQA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "196K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "M3Exam",
+    "access_url": "https://github.com/DAMO-NLP-SG/M3Exam",
+    "reference_url": "https://arxiv.org/abs/2306.05179",
+    "description": "M3Exam 是一个源自真实官方人类考试题目的基准数据集，旨在多语言、多模态和多层级语境下评估大语言模型。它涵盖了从小学到高中的三个关键教育阶段，通过多项选择题任务，全面考察模型在语言理解、领域知识、文化知识及复杂问题解决等方面的通用智能 。数据集中约 23% 的题目涉及图像处理，极具挑战性 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "General-Intelligence"
+    ],
+    "languages": [
+      "Multilingual"
+    ],
+    "year": "2023",
+    "samples": "12K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "IMAD",
+    "access_url": "https://huggingface.co/datasets/VityaVitalich/IMAD",
+    "reference_url": "https://arxiv.org/abs/2305.10512",
+    "description": "IMAD 是一个用于多模态对话研究的英语数据集，旨在解决现有对话系统难以有效整合视觉信息及缺乏验证数据的问题 。该数据集通过自动构建流程及人工辅助标注，将对话中的末位话语替换为语义关联的图像，从而推动对话系统从单一文本模态向多模态过渡 。其核心价值在于让系统学会在特定对话语境下解读图像含义，并完成话语重建任务 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Reconstructing-the-substituted-utterance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "4.8K",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "InfoSeek",
+    "access_url": "https://open-vision-language.github.io/infoseek/",
+    "reference_url": "https://arxiv.org/abs/2302.11713",
+    "description": "INFOSEEK 是一个专门为“信息寻求型”视觉问答（VQA）任务设计的知识密集型数据集 。不同于传统关注视觉属性（如颜色、形状）的任务，该数据集侧重于仅凭常识无法回答、必须依赖细粒度外部知识（如实体的历史、地理或技术规格）才能解决的问题 。它通过将视觉图像与 Wikidata 和 Wikipedia 等大规模知识库对齐，挑战模型跨模态检索和利用长尾知识的能力 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Visual-Information-seeking-QA"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "1.36M",
+    "source": "source_awesome_mllm.md"
+  },
+  {
+    "title": "OVEN",
+    "access_url": "https://open-vision-language.github.io/oven/",
+    "reference_url": "https://arxiv.org/abs/2302.11154",
+    "description": "OVEN-Wiki 是为了评估多模态预训练模型是否具备“通用视觉识别能力”而构建的大规模基准数据集 。它解决了现有基准测试局限于特定领域（如户外图像）或特定任务（如分类植物）的问题 。其核心任务是根据文本查询（Text Query）将图像中的对象精准链接到维基百科实体（Wikipedia Entity），涵盖了动物、植物、建筑、地点等近乎全人类已知的视觉概念 。该数据集将 14 个现有数据集的标签空间统一到了包含 600 万个实体的维基百科中 。",
+    "modalities": [
+      "Image",
+      "Text"
+    ],
+    "tasks": [
+      "Open-domain-Visual-Entity-Recognition"
+    ],
+    "languages": [
+      "English"
+    ],
+    "year": "2023",
+    "samples": "5.8M",
+    "source": "source_awesome_mllm.md"
+  }
+]

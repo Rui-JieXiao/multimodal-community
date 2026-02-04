@@ -1,0 +1,44 @@
+[
+ {
+  "title": "CVPR",
+  "year": 2026,
+  "deadlines": [
+    {
+      "label": "摘要提交",
+      "time": "2025-11-07 23:59:59",
+      "timezone": "UTC-12"
+    },
+    {
+      "label": "全文截稿",
+      "time": "2025-11-13 23:59:59",
+      "timezone": "UTC-12"
+    },
+    {
+      "label": "录用通知",
+      "time": "2026-02-20 23:59:59",
+      "timezone": "UTC-12"
+    }
+  ]
+ },
+ {
+  "title": "ICML",
+  "year": 2026,
+  "deadlines": [
+    {
+      "label": "摘要提交",
+      "time": "2026-01-23 23:59:59",
+      "timezone": "UTC-12"
+    },
+    {
+      "label": "全文截稿",
+      "time": "2026-01-28 23:59:59",
+      "timezone": "UTC-12"
+    },
+    {
+      "label": "录用通知",
+      "time": "2026-04-30 23:59:59",
+      "timezone": "UTC-12"
+    }
+  ]
+ }
+]
