@@ -5,10 +5,10 @@
       
       <div class="mb-2 shrink-0">
         <span 
-          class="inline-block text-[10px] font-bold px-2 py-0.5 rounded border"
+          class="inline-block text-[10px] font-bold px-2 py-0.5 rounded border shadow-sm"
           :class="venueConfig.style"
         >
-          {{ conference || 'Paper' }}
+          {{ displayVenue }}
         </span>
       </div>
 
@@ -90,7 +90,9 @@ import { computed } from 'vue'
 const props = defineProps({
   title: { type: String, default: 'Untitled Paper' },
   image: { type: String, default: '' },
-  conference: { type: String, default: 'Research' },
+  // 修改点：增加 venue 接收字段
+  venue: { type: String, default: '' },
+  conference: { type: String, default: '' },
   authors: { type: String, default: '' },
   description: { type: String, default: '' },
   date: { type: String, default: '2024' },
@@ -100,18 +102,47 @@ const props = defineProps({
 
 const defaultImage = '/paper_images/default-cover.jpg'
 
+// 修改点：优先显示 venue，并转换为大写
+const displayVenue = computed(() => {
+  return (props.venue || props.conference || 'Research').toUpperCase()
+})
+
+// 修改点：根据会议类型返回不同颜色样式
 const venueConfig = computed(() => {
-  const v = (props.conference || '').toLowerCase()
-  if (/cvpr|iccv|eccv|neurips|icml|iclr|aaai|acl/.test(v)) {
+  const v = displayVenue.value.toLowerCase()
+
+  // 1. 计算机视觉顶会 (CVPR, ICCV, ECCV) -> 蓝色 (Primary)
+  if (/cvpr|iccv|eccv|wacv|bmvc/.test(v)) {
+    return { style: 'bg-blue-50 text-blue-700 border-blue-200' }
+  }
+
+  // 2. AI 综合与机器学习 (NeurIPS, ICML, ICLR, AAAI, IJCAI) -> 紫色
+  if (/neurips|nips|icml|iclr|aaai|ijcai/.test(v)) {
     return { style: 'bg-purple-50 text-purple-700 border-purple-200' }
   }
-  if (v.includes('arxiv')) {
-    return { style: 'bg-gray-50 text-gray-600 border-gray-200' }
-  }
-  if (/blog|openai|google|meta|deepmind|seed|apple|tech report/.test(v)) {
+
+  // 3. 自然语言处理 (ACL, EMNLP, NAACL) -> 青色 (Secondary)
+  if (/acl|emnlp|naacl|coling/.test(v)) {
     return { style: 'bg-teal-50 text-teal-700 border-teal-200' }
   }
-  return { style: 'bg-blue-50 text-blue-700 border-blue-200' }
+
+  // 4. 多模态与多媒体 (ACM MM) -> 橙色 (Accent)
+  if (/acm mm|multimedia/.test(v)) {
+    return { style: 'bg-orange-50 text-orange-700 border-orange-200' }
+  }
+
+  // 5. ArXiv 预印本 -> 灰色
+  if (v.includes('arxiv')) {
+    return { style: 'bg-gray-100 text-gray-600 border-gray-200' }
+  }
+
+  // 6. 工业界技术报告 (OpenAI, Google...) -> 靛青色
+  if (/blog|openai|google|meta|deepmind|seed|apple|tech report/.test(v)) {
+    return { style: 'bg-indigo-50 text-indigo-700 border-indigo-200' }
+  }
+
+  // 7. 默认兜底 -> 浅灰色
+  return { style: 'bg-slate-50 text-slate-600 border-slate-200' }
 })
 </script>
 
